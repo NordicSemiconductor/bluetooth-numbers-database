@@ -23,7 +23,7 @@ struct Company {
 }
 ```
 
-Where 'code' stands for the Decimal value available for each entry in the (official list of assigned Company Identifiers)[https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/], and the name is self-explanatory.
+Where 'code' stands for the Decimal value available for each entry in the [official list of assigned Company Identifiers](https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/), and the name is self-explanatory.
 
 ### Service(s), Characteristic(s) and Descriptor(s)
 
@@ -38,7 +38,7 @@ struct GATTSpecification {
 }
 ```
 
-To represent these types, we have followed the table available in the official listing of GATT Specifications, like (this one for Characteristics)[https://www.bluetooth.com/specifications/gatt/characteristics/]. The first two fields are self-descriptive, however, the last two deserve a little bit more attention. For all specifications under the stewardship of one company, we recommend setting the same `specification` value. For example, we have set the value `nordic` for all the Service(s) and Descriptor(s) defined and maintained by us. Lastly, to group specifications regarding the same product or feature, we encourage the use of the same value for the `identifier` field.
+To represent these types, we have followed the table available in the official listing of GATT Specifications, like [this one for Characteristics](https://www.bluetooth.com/specifications/gatt/characteristics/). The first two fields are self-descriptive, however, the last two deserve a little bit more attention. For all specifications under the stewardship of one company, we recommend setting the same `specification` value. For example, we have set the value `nordic` for all the Service(s) and Descriptor(s) defined and maintained by us. Lastly, to group specifications regarding the same product or feature, we encourage the use of the same value for the `identifier` field.
 
 ## Usage
 
