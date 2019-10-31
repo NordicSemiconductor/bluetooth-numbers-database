@@ -1,39 +1,25 @@
-var Ajv = require("ajv")
-var fs = require("fs")
+const Ajv = require('ajv');
 
-const version = 1
+const version = 1;
+const pathForJson = filename => `${__dirname}/v${version}/${filename}.json`;
 
-const companySchema = {
-  "$type": "object",
-  "properties": {
-    "code": { "type": "integer" },
-    "name": { "type": "string" }
+const companySchema = require(pathForJson('company_schema'));
+const uuidSchema = require(pathForJson('uuid_schema'));
+
+const companiesList = require(pathForJson('company_ids'));
+const servicesList = require(pathForJson('services_uuid'));
+const characteristicsList = require(pathForJson('characteristics_uuid'));
+const descriptorsList = require(pathForJson('descriptors_uuid'));
+
+const ajv = new Ajv();
+
+const validate = (schema, list) => {
+  if (!ajv.validate(companySchema, companiesList)) {
+    console.error('failed to validate');
+    process.exit(1);
   }
 }
 
-const uuidSchema = {
-  "$type": "object",
-  "properties": {
-    "description": { "type": "string" },
-    "identifier": { "type": "string" },
-    "uuid": { "type": "string" },
-    "specification": { "type": "string" }
-  }
-}
-
-const names = ["company_ids.json", "services_uuid.json", "characteristics_uuid.json", "descriptors_uuid.json"]
-const schemas = [companySchema, uuidSchema, uuidSchema, uuidSchema]
-var ajv = new Ajv()
-for (var i = 0, len = schemas.length; i < len; i++) {
-  console.log("Validating " + names[i]);
-  const jsonList = readAndParseJSON(names[i])
-  ajv.validate(schemas[i], jsonList)
-}
-
-function readAndParseJSON(filename) {
-  JSON.parse(fs.readFileSync(pathForJson(filename)))
-}
-
-function pathForJson(filename) {
-  return __dirname + "/v" + version + "/" + filename
-}
+validate(companySchema, companiesList);
+[servicesList, characteristicsList, descriptorsList]
+  .forEach(list => validate(uuidSchema, list));
