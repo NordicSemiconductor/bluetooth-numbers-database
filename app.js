@@ -3,7 +3,6 @@ var fs = require("fs")
 
 const version = 1
 
-const companiesList = readAndParseJSON("company_ids")
 const companySchema = {
   "$type": "object",
   "properties": {
@@ -21,15 +20,14 @@ const uuidSchema = {
     "specification": { "type": "string" }
   }
 }
-const servicesList = readAndParseJSON("services_uuid")
-const characteristicsList = readAndParseJSON("characteristics_uuid")
-const descriptorsList = readAndParseJSON("descriptors_uuid")
 
+const names = ["company_ids.json", "services_uuid.json", "characteristics_uuid.json", "descriptors_uuid.json"]
 const schemas = [companySchema, uuidSchema, uuidSchema, uuidSchema]
-const jsonLists = [companiesList, servicesList, characteristicsList, descriptorsList]
 var ajv = new Ajv()
-for (var i = 0, len = jsonLists.length; i < len; i++) {
-  ajv.validate(schemas[i], jsonLists[i])
+for (var i = 0, len = schemas.length; i < len; i++) {
+  console.log("Validating " + names[i]);
+  const jsonList = readAndParseJSON(names[i])
+  ajv.validate(schemas[i], jsonList)
 }
 
 function readAndParseJSON(filename) {
@@ -37,5 +35,5 @@ function readAndParseJSON(filename) {
 }
 
 function pathForJson(filename) {
-  return __dirname + "/v" + version + "/" + filename + ".json"
+  return __dirname + "/v" + version + "/" + filename
 }
