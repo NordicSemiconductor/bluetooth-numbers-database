@@ -48,12 +48,6 @@ Coming Soon.
 
 Coming Soon.
 
-## Original Author
-
-Mobile Applications Group (MAG), Nordic Semiconductor ASA.
-
-Contact: mag <mag@nordicsemi.no>
-
 ## License
 
 This project is in active development. We will add a License when it is officially released.
