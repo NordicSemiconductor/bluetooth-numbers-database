@@ -324,5 +324,5 @@
     { "description": "Mesh Provisioning Data Out", "identifier": "com.nordicsemi.mesh", "uuid": "2ADC" , "specification": "nordic"},
 
     { "description": "Mesh Proxy Data In", "identifier": "com.nordicsemi.mesh", "uuid": "2ADD" , "specification": "nordic"},
-    { "description": "Mesh Proxy Data Out", "identifier": "com.nordicsemi.mesh", "uuid": "2ADE" , "specification": "nordic"},
+    { "description": "Mesh Proxy Data Out", "identifier": "com.nordicsemi.mesh", "uuid": "2ADE" , "specification": "nordic"}
 ]
