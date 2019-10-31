@@ -1,8 +1,8 @@
-# Nordic UUID Database
+# Nordic Bluetooth UUID Database
 
 ## About
 
-The Nordic UUID Database provides a simple mechanism through which you can keep an up-to-date listing of all the various Bluetooth Specification-related elements that are defined by our industry, such as Company IDs, Service UUIDs, Characteristic UUIDs and Descriptor UUIDs.
+The Nordic Bluetooth UUID Database provides a simple mechanism through which you can keep an up-to-date listing of all the various Bluetooth Specification-related elements that are defined by our industry, such as Company IDs, Service UUIDs, Characteristic UUIDs and Descriptor UUIDs.
 
 Many values are already a part of the Bluetooth SIG Specification. However, the Bluetooth Model allows for third-parties to define custom UUIDs for their own capabilities. By setting up a centralised database, we can all rely on this [Single Source of Truth](https://en.wikipedia.org/wiki/Single_source_of_truth) for fetching information of all the Bluetooth-related UUIDs we might find, allowing everyone in the community to reap its rewards. Companies can use it add their own UUIDs to it, allowing other third-parties that use this same database to be able to recognise them with almost no effort on their part.
 
@@ -14,7 +14,7 @@ There are two data types currently represented in 'v1'. They are:
 
 ### Company IDs
 
-Each Company ID element can be represented the following way:
+Each Company ID element can be represented in `Swift` the following way:
 
 ```
 struct Company {
@@ -27,7 +27,7 @@ Where 'code' stands for the Decimal value available for each entry in the [offic
 
 ### Service(s), Characteristic(s) and Descriptor(s)
 
-All three of these types follow the same structure:
+All three of these types follow the same structure, again, in `Swift`:
 
 ```
 struct GATTSpecification {
@@ -44,11 +44,15 @@ To represent these types, we have followed the table available in the official l
 
 Coming Soon.
 
+## I Want To Contribute !!
+
+Coming Soon.
+
 ## Original Author
 
-Mobile Applications Team, Nordic Semiconductor ASA.
+Mobile Applications Group (MAG), Nordic Semiconductor ASA.
 
-Contact: dinesharjani <dinesh.harjani@nordicsemi.no>
+Contact: mag <mag@nordicsemi.no>
 
 ## License
 
