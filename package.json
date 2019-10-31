@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/NordicSemiconductor/UUID-Database/issues"
   },
-  "homepage": "https://github.com/NordicSemiconductor/UUID-Database#readme"
+  "homepage": "https://github.com/NordicSemiconductor/UUID-Database#readme",
+  "dependencies": {
+    "ajv": "^6.10.2"
+  }
 }
