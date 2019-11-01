@@ -1,9 +1,18 @@
 {
-  "$type": "object",
-  "properties": {
-    "description": { "type": "string" },
-    "identifier": { "type": "string" },
-    "uuid": { "type": "string" },
-    "specification": { "type": "string" }
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "description": { "type": "string" },
+      "identifier": { "type": "string" },
+      "uuid": { "type": "string" },
+      "specification": { "type": "string" }
+    },
+    "required": [
+      "description",
+      "identifier",
+      "uuid",
+      "specification"
+    ]
   }
 }

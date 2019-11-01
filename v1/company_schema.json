@@ -1,7 +1,14 @@
 {
-  "$type": "object",
-  "properties": {
-    "code": { "type": "integer" },
-    "name": { "type": "string" }
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "code": { "type": "integer" },
+      "name": { "type": "string" }
+    },
+    "required": [
+      "code",
+      "name"
+    ]
   }
 }
