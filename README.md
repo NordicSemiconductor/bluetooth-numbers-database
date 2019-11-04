@@ -1,4 +1,5 @@
 # Nordic Bluetooth UUID Database
+[![Verification Status](https://xxx.execute-api.us-west-2.amazonaws.com/production/badge/NordicSemiconductor/bluetooth-uuid-database)](https://xxx.execute-api.us-west-2.amazonaws.com/production/results/NordicSemiconductor/bluetooth-uuid-database)
 
 ## About
 
@@ -44,7 +45,7 @@ To represent these types, we have followed the table available in the official l
 
 Coming Soon.
 
-## I Want To Contribute !!
+## I Want To Contribute
 
 Coming Soon.
 
