@@ -1,5 +1,5 @@
 # Nordic Bluetooth UUID Database
-[![Verification Status](https://xxx.execute-api.us-west-2.amazonaws.com/production/badge/NordicSemiconductor/bluetooth-uuid-database)](https://xxx.execute-api.us-west-2.amazonaws.com/production/results/NordicSemiconductor/bluetooth-uuid-database)
+![](https://github.com/NordicSemiconductor/bluetooth-uuid-database/workflows/Verify%20JSON%20Schemas/badge.svg)
 
 ## About
 
