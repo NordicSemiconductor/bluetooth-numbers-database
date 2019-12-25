@@ -1,15 +1,12 @@
 'use strict';
 
-const version = require('./package.json').version.split('.')[0];
-const pathForJson = filename => `${__dirname}/v${version}/${filename}.json`;
+const companies = require('./v1/company_ids.json');
+const services = require('./v1/services_uuid.json');
+const characteristics = require('./v1/characteristics_uuid.json');
+const descriptors = require('./v1/descriptors_uuid.json');
 
-const companies = require(pathForJson('company_ids'));
-const services = require(pathForJson('services_uuid'));
-const characteristics = require(pathForJson('characteristics_uuid'));
-const descriptors = require(pathForJson('descriptors_uuid'));
-
-const companySchema = require(pathForJson('company_schema'));
-const uuidSchema = require(pathForJson('uuid_schema'));
+const companySchema = require('./v1/company_schema.json');
+const uuidSchema = require('./v1/uuid_schema.json');
 
 module.exports = {
     companies,
