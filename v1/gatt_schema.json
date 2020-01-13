@@ -3,15 +3,15 @@
   "items": {
     "type": "object",
     "properties": {
-      "description": { "type": "string" },
-      "identifier": { "type": "string" },
       "uuid": { "type": "string" },
+      "identifier": { "type": "string" },
+      "name": { "type": "string" },
       "specification": { "type": "string" }
     },
     "required": [
-      "description",
-      "identifier",
       "uuid",
+      "identifier",
+      "name",
       "specification"
     ]
   }
