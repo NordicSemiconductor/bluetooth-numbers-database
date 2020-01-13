@@ -9,7 +9,7 @@ const characteristics = require(pathForJson('characteristics_uuid'));
 const descriptors = require(pathForJson('descriptors_uuid'));
 
 const companySchema = require(pathForJson('company_schema'));
-const uuidSchema = require(pathForJson('uuid_schema'));
+const uuidSchema = require(pathForJson('gatt_schema'));
 
 module.exports = {
     companies,
