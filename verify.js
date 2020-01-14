@@ -5,7 +5,7 @@ const noDuplicates = Object.keys(db)
   .map(list => {
     let numberOfItems;
     let numberOfUniques;
-    if (list == 'companies') {
+    if (list === 'companies') {
       let companyCodes = db[list].map(company => company.code);
       numberOfItems = companyCodes.length;
       numberOfUniques = (new Set(companyCodes)).size;  
@@ -16,9 +16,8 @@ const noDuplicates = Object.keys(db)
       numberOfUniques = (new Set(uuids)).size;
     }
 
-    if (numberOfItems != numberOfUniques) {            
-      console.error(`Failed to verify '${list}':`);
-      console.error(`'${list}' contains '${numberOfItems - numberOfUniques}' duplicates.`);
+    if (numberOfItems !== numberOfUniques) {            
+      console.error(`Failed to verify '${list}': '${numberOfItems - numberOfUniques}' duplicate UUID(s) found.`);
       return false;
     }
     return true;
