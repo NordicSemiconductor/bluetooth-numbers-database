@@ -1,5 +1,5 @@
 # Nordic Bluetooth UUID Database
-![](https://github.com/NordicSemiconductor/bluetooth-uuid-database/workflows/Verify%20JSON%20Schemas/badge.svg)
+![](https://github.com/NordicSemiconductor/bluetooth-uuid-database/workflows/Verify%20JSON%20Schemas/badge.svg)![](https://github.com/NordicSemiconductor/bluetooth-uuid-database/workflows/Check%20No%20Duplicates/badge.svg)
 
 Welcome to **[insert-project-name-here]**, a database containing metadata and descriptions of various Bluetooth Specification-related elements in use across all types of applications. Allowing you to outsource publishing, maintenance, and review of both your own Bluetooth specifications as well as those used by the rest of the industry.
 
