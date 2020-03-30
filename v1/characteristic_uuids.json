@@ -229,11 +229,11 @@
     { "name": "Button State Characteristic", "identifier": "ccom.nordicsemi.characteristic.blinky.button_state", "uuid": "00001524-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "LED State Characteristic", "identifier": "com.nordicsemi.characteristic.blinky.led_state", "uuid": "00001525-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
 
-    { "name": "Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.config", "uuid": "EF680901-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "UART Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.uart_config", "uuid": "EF680901-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "UART read characteristic", "identifier": "com.nordicsemi.characteristic.thingy.uart_read", "uuid": "EF680902-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "UART write characteristic", "identifier": "com.nordicsemi.characteristic.thingy.uart_write", "uuid": "EF680903-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
 
-    { "name": "Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.config", "uuid": "EF680801-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "I2C Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.i2c_config", "uuid": "EF680801-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "I2C read characteristic", "identifier": "com.nordicsemi.characteristic.thingy.i2c_read", "uuid": "EF680802-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "I2C write characteristic", "identifier": "com.nordicsemi.characteristic.thingy.i2c_write", "uuid": "EF680803-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
 
@@ -253,12 +253,12 @@
     { "name": "Pin 3 characteristic", "identifier": "com.nordicsemi.characteristic.thingy.pin_3", "uuid": "EF680703-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Pin 4 characteristic", "identifier": "com.nordicsemi.characteristic.thingy.pin_4", "uuid": "EF680704-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
 
-    { "name": "Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.config", "uuid": "EF680501-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Sound Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.sound_config", "uuid": "EF680501-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Speaker data characteristic", "identifier": "com.nordicsemi.characteristic.thingy.speaker_data", "uuid": "EF680502-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Speaker status characteristic", "identifier": "com.nordicsemi.characteristic.thingy.speaker_status", "uuid": "EF680503-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Microphone characteristic", "identifier": "com.nordicsemi.characteristic.thingy.microphone", "uuid": "EF680504-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
 
-    { "name": "Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.config", "uuid": "EF680401-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Motion Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.motion_config", "uuid": "EF680401-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Tap characteristic", "identifier": "com.nordicsemi.characteristic.thingy.tap", "uuid": "EF680402-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Orientation characteristic", "identifier": "com.nordicsemi.characteristic.thingy.orientation", "uuid": "EF680403-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Quaternion characteristic", "identifier": "com.nordicsemi.characteristic.thingy.quaternion", "uuid": "EF680404-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
