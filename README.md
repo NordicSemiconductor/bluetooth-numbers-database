@@ -34,25 +34,24 @@ This same Data Structure is used for Services, Characteristics and Descriptors:
 | ------|------|----------| --- |
 | uuid | `String` | **Unique Number** identifying the specific Service, Characteristic or Descriptor. Unique Numbers can either be 16-bit, like "2902" for Client Characteristic Configuration Descriptor, or 128-bit, like "EF680100-9B35-4933-9B10-52FFA9740042" for Thingy Configuration Service. | **Yes** |
 | name | `String` | The GATT Attribute's name. | **Yes** |
-| identifier | `String` | **Uniform Type Identifier**, a reverse-dot notation String used to group Service(s), Characteristic(s) and/or Descriptor(s) as part of a cohesive API. For example: The Blood Pressure Service uses the `org.bluetooth.service.blood_pressure` identifier, and its associated Blood Pressure Measurement Characteristic uses the `org.bluetooth.characteristic.blood_pressure_measurement` identifier. | **Yes** |
-| source | `String` | The source of the described Attribute. For example: all GATT Services, Characteristics and Descriptors have a `gss` specification value. Accordingly, Nordic-owned Services, Characteristics and/or Descriptors are marked with a `nordic` source value. | **Yes** |
+| identifier | `String` | **Unique Uniform Type Identifier**, a reverse-dot notation String used to set the context of the attribute. For example, many Attributes could use "Configuration" as a name, and to differentiate the specific functionality they belong to, or if they're a configuration Service, Characteristic or Descriptor we can rely on their identifier, such as `com.company.service.example.configuration` versus `com.company.characteristic.example.configuration`. | **Yes** |
+| source | `String` | The source of the described Attribute's definition. For example: all GATT Services, Characteristics and Descriptors have a `gss` specification value. Accordingly, Nordic-owned Services, Characteristics and/or Descriptors are marked with a `nordic` source value. | **Yes** |
 
 We have based the data structure above on the official listing of GATT Specifications as much as possible. You can check  [this listing of GATT Characteristics for reference](https://www.bluetooth.com/specifications/gatt/characteristics/). And as before, you can check our JSON Schema [here](https://github.com/NordicSemiconductor/bluetooth-uuid-database/blob/master/v1/gatt_schema.json).
 
 ## Rules and Contributions
 
-* Only new 128-bit Company IDs can be contributed, since [all 16-bit Company IDs are assigned by Bluetooth SIG](https://www.bluetooth.com/specifications/assigned-numbers/16-bit-uuids-for-members/). Exceptions will be handled on a case-to-case basis, but only under very special circumstances.
-* GATT Attributes, like Services, Characteristics and/or Descriptors, **can and are meant to** be extended by the community.
-* No duplicate 128-bit UUIDs of any form are allowed. If a conflict exists, it'll be managed on a case-to-case basis.
+* The purpose of this project is to be an online shared directory of Bluetooth numbers, so all listings (Company IDs, Services, etc.) **can and are meant to** be extended by the community, as long as they're Bluetooth SIG-Compliant. (See below.)
+* Only new 128-bit Company IDs can be freely contributed, since [all 16-bit identifiers are assigned by Bluetooth SIG itself](https://www.bluetooth.com/specifications/assigned-numbers/16-bit-uuids-for-members/). Exceptions will be handled on a case-to-case basis, but only under very special circumstances.
+* Many 16-bit UUIDs assigned to Bluetooth SIG Members are currently missing, because the official listing does not provide enough information. We are hoping the onwers of said UUIDs could either provide us with the information we need (Description and Identifier), or submit a pull request themselves.
+* No duplicate 128-bit UUIDs or identifiers within each GATT Attribute Category (Services, Characteristics and Descriptors) are allowed. If a conflict exists, it'll be managed on a case-to-case basis.
 * Nordic Semiconductor ASA is not responsible for UUIDs disclosed here that are not meant yet for public consumption. Please ensure your pull requests are safe and do not cause any harm to either you or a third-party.
 
 Furthermore, please feel free to raise issues or pull requests with your own suggestions about how this project can or should improve. **We at Nordic do not view Bluetooth Numbers Database as our property**, but as a shared endeavour with the rest of the developer and Bluetooth communities. 
 
 ## Motivation
 
-The above being said, we have created this project with the purpose of attracting other members of the Bluetooth community that need to parse and identify UUIDs from a variety of vendors and devices. Whilst it seems easy for each one of us to do it on our own, conversely it means we all lose the ability to recognise the awesome features and products other members are releasing and launching.
-
-To this effect, we encourage anyone and everyone to submit their own UUIDs according to their own specification. Just make a pull request, ensure it passes our Verification Tests, and if there are no conflicts with other makers, we will approve it and merge it.
+The #1 question most Bluetooth developers will ask themselves when seeing this repo is a variation along the lines of `Don't need another library - I can write this in 5 minutes`. And whilst true, this does not cover the entire picture, because **it's everyone writing the same piece of code 5 minutes**, and then having to keep it up to date. That's the weight we're removing from you by using this community project. You don't need to worry about staying up to date regarding new Company IDs or GATT Attributes - just write code that pulls information from this repo every once in a while, and your apps will permanently be kept up to date. No need for reinventing the wheel.
 
 ## License
 
