@@ -1,17 +1,17 @@
 # Bluetooth Numbers Database
 ![](https://github.com/NordicSemiconductor/bluetooth-uuid-database/workflows/Verify%20JSON%20Schemas/badge.svg)![](https://github.com/NordicSemiconductor/bluetooth-uuid-database/workflows/Check%20No%20Duplicates/badge.svg)
 
-Welcome to the Bluetooth Numbers Database, an online repository containing metadata and definitions for a subset of [Bluetooth Assigned Numbers](https://www.bluetooth.com/specifications/assigned-numbers/). The goal of this project is to provide a shared open platform to access as definition for these definitions for a variety of platforms, such as web applications and mobile, with the intention of covering both GATT and industry specifications outside the standards.
+Welcome to the Bluetooth Numbers Database, an online repository containing metadata and definitions for a subset of [Bluetooth Assigned Numbers](https://www.bluetooth.com/specifications/assigned-numbers/). The goal of this project is to provide a shared open platform to access from a variety of platforms, such as web and mobile, with the intention of covering both GATT and industry specifications.
 
-**Bluetooth Numbers Database** is used and maintained by Nordic Semiconductor ASA.
+**Bluetooth Numbers Database** is maintained by Nordic Semiconductor ASA.
 
 ## Scope
 
-The Bluetooth Specification makes heave use of a Universally Unique Identifier field, known **UUID** for short, to define multiple key elements in the spec, such as a device's manufacturer, service definitions, and much more. In the development of our own tools, it was discovered many of these definitions were duplicated and redefined in a variety of projects, hence the need to unify that body of work into a single, cohesive project representing a [Single Source of Truth](https://en.wikipedia.org/wiki/Single_source_of_truth).
+The Bluetooth Specification makes heave use of a Universally Unique Identifier field, known **UUID** for short, to define multiple key elements in the spec, such as a device's manufacturer information. In the development of our own tools, it was discovered many of these definitions were duplicated and redefined in a variety of projects, hence the need to unify that body of work into a single, cohesive project representing a [Single Source of Truth](https://en.wikipedia.org/wiki/Single_source_of_truth).
 
-In addition, it is common-case within the Bluetooth community, and covered by the specification, to extend the SIG-defined elements with proprietary definitions that do not overlap with the standard. As a Bluetooth hardware-provider and manufacturer, Nordic Semiconductor makes heavy use of these extensions, and recognises the value in allowing other hardware manufacturers to announce their own Bluetooth Services, Characteristics and Descriptors to the rest of the industry.
+In addition, it is common-case within the Bluetooth community, and covered by the specification, to extend the SIG-defined elements with proprietary definitions that do not overlap with the standard. This is perfectly allowed, but without a single place to check against whether your proposed UUID is used by others, we run the risk of having multiple uses for the same identifier.
 
-Therefore, the scope of this project is to provide a centralised database to access Company IDs, Service UUIDs, Characteristic UUIDs and Descriptor UUIDs, and is open to anyone and everyone who would like to participate, both passively (i.e. querying) and actively (i.e. submitting their own definitions)
+Bluetooth Numbers Database aims to solve this problem, as a centralised database for querying Company IDs and GATT Attributes, and is open to anyone who would like to contribute.
 
 ## Specification
 
