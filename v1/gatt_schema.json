@@ -6,13 +6,13 @@
       "uuid": { "type": "string" },
       "identifier": { "type": "string" },
       "name": { "type": "string" },
-      "specification": { "type": "string" }
+      "source": { "type": "string" }
     },
     "required": [
       "uuid",
       "identifier",
       "name",
-      "specification"
+      "source"
     ]
   }
 }
