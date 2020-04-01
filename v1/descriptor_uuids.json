@@ -1,0 +1,17 @@
+[
+    { "name": "Characteristic Aggregate Format", "identifier": "org.bluetooth.descriptor.gatt.characteristic_aggregate_format", "uuid": "2905", "source": "gss" },
+    { "name": "Characteristic Extended Properties", "identifier": "org.bluetooth.descriptor.gatt.characteristic_extended_properties", "uuid": "2900", "source": "gss" },
+    { "name": "Characteristic Presentation Format", "identifier": "org.bluetooth.descriptor.gatt.characteristic_presentation_format", "uuid": "2904", "source": "gss" },
+    { "name": "Characteristic User name", "identifier": "org.bluetooth.descriptor.gatt.characteristic_user_name", "uuid": "2901", "source": "gss" },
+    { "name": "Client Characteristic Configuration", "identifier": "org.bluetooth.descriptor.gatt.client_characteristic_configuration", "uuid": "2902", "source": "gss"},
+    { "name": "Environmental Sensing Configuration", "identifier": "org.bluetooth.descriptor.es_configuration", "uuid": "290B", "source": "gss"},
+    { "name": "Environmental Sensing Measurement", "identifier": "org.bluetooth.descriptor.es_measurement", "uuid": "290C", "source": "gss"},
+    { "name": "Environmental Sensing Trigger Setting", "identifier": "org.bluetooth.descriptor.es_trigger_setting", "uuid": "290D", "source": "gss"},
+    { "name": "External Report Reference", "identifier": "org.bluetooth.descriptor.external_report_reference", "uuid": "2907", "source": "gss"},
+    { "name": "Number of Digitals", "identifier": "org.bluetooth.descriptor.number_of_digitals", "uuid": "2909", "source": "gss"},
+    { "name": "Report Reference", "identifier": "org.bluetooth.descriptor.report_reference", "uuid": "2908", "source": "gss"},
+    { "name": "Server Characteristic Configuration", "identifier": "org.bluetooth.descriptor.gatt.server_characteristic_configuration", "uuid": "2903", "source": "gss"},
+    { "name": "Time Trigger Setting", "identifier": "org.bluetooth.descriptor.time_trigger_setting", "uuid": "290E", "source": "gss"},
+    { "name": "Valid Range", "identifier": "org.bluetooth.descriptor.valid_range", "uuid": "2906", "source": "gss"},
+    { "name": "Value Trigger Setting", "identifier": "org.bluetooth.descriptor.value_trigger_setting", "uuid": "290A", "source": "gss"}
+]

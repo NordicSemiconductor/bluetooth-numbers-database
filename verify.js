@@ -4,20 +4,27 @@ const noDuplicates = Object.keys(db)
   .filter(key => key !== 'schemas')
   .map(list => {
     let numberOfItems;
-    let numberOfUniques;
+    let numberOfUniqueUUIDs;
     if (list === 'companies') {
       let companyCodes = db[list].map(company => company.code);
       numberOfItems = companyCodes.length;
-      numberOfUniques = (new Set(companyCodes)).size;  
+      numberOfUniqueUUIDs = (new Set(companyCodes)).size;  
     } else {
-      // Service(s), Characteristic(s) and Descriptor(s)
+      // GATT Attributes
       let uuids = db[list].map(gatt => gatt.uuid);
       numberOfItems = uuids.length;
-      numberOfUniques = (new Set(uuids)).size;
+      numberOfUniqueUUIDs = (new Set(uuids)).size;
+
+      let identifiers = db[list].map(gatt => gatt.identifier);
+      let numberOfUniqueIdentifiers = (new Set(identifiers)).size;
+      if (numberOfItems !== numberOfUniqueIdentifiers) {
+        console.error(`Failed to verify '${list}': '${numberOfItems - numberOfUniqueIdentifiers}' duplicate Identifier(s) found.`);
+        return false;
+      }
     }
 
-    if (numberOfItems !== numberOfUniques) {            
-      console.error(`Failed to verify '${list}': '${numberOfItems - numberOfUniques}' duplicate UUID(s) found.`);
+    if (numberOfItems !== numberOfUniqueUUIDs) {            
+      console.error(`Failed to verify '${list}': '${numberOfItems - numberOfUniqueUUIDs}' duplicate UUID(s) found.`);
       return false;
     }
     return true;
