@@ -9,7 +9,7 @@ const characteristics = require(pathForJson('characteristic_uuids'));
 const descriptors = require(pathForJson('descriptor_uuids'));
 
 const companySchema = require(pathForJson('company_schema'));
-const attributechema = require(pathForJson('attribute_schema'));
+const attributeSchema = require(pathForJson('attribute_schema'));
 
 module.exports = {
     companies,
@@ -18,8 +18,8 @@ module.exports = {
     descriptors,
     schemas: {
         companies: companySchema,
-        services: attributechema,
-        characteristics: attributechema,
-        descriptors: attributechema,
+        services: attributeSchema,
+        characteristics: attributeSchema,
+        descriptors: attributeSchema,
     }
 };
