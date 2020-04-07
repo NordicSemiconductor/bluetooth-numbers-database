@@ -312,35 +312,35 @@
     { "name": "Apple Entity Update", "identifier": "com.apple.characteristic.media.entity_update", "uuid": "2F7CABCE-808D-411F-9A0C-BB92BA96C102" , "source": "apple"},
     { "name": "Apple Entity Attribute", "identifier": "com.apple.characteristic.media.entity_attribute", "uuid": "C6B2F38C-23AB-46D8-A6AB-A3A870BBD5D7" , "source": "apple"},
 
-    { "name": "micro:bit Accelerometer Data", "identifier": "org.micro.bit.characteristic.accelerometer_data", "uuid": "E95DCA4B-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Accelerometer Period", "identifier": "org.micro.bit.characteristic.accelerometer_period", "uuid": "E95DFB24-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit Accelerometer Data", "identifier": "org.microbit.characteristic.accelerometer_data", "uuid": "E95DCA4B-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Accelerometer Period", "identifier": "org.microbit.characteristic.accelerometer_period", "uuid": "E95DFB24-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "micro:bit Magnetometer Data", "identifier": "org.micro.bit.characteristic.magnetometer_data", "uuid": "E95DFB11-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Magnetometer Period", "identifier": "org.micro.bit.characteristic.magnetometer_period", "uuid": "E95D386C-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Magnetometer Bearing", "identifier": "org.micro.bit.characteristic.magnetometer_bearing", "uuid": "E95D9715-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit Magnetometer Data", "identifier": "org.microbit.characteristic.magnetometer_data", "uuid": "E95DFB11-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Magnetometer Period", "identifier": "org.microbit.characteristic.magnetometer_period", "uuid": "E95D386C-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Magnetometer Bearing", "identifier": "org.microbit.characteristic.magnetometer_bearing", "uuid": "E95D9715-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "micro:bit Button A State", "identifier": "org.micro.bit.characteristic.button.a_state", "uuid": "E95DDA90-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Button B State", "identifier": "org.micro.bit.characteristic.button.b_state", "uuid": "E95DDA91-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit Button A State", "identifier": "org.microbit.characteristic.button.a_state", "uuid": "E95DDA90-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Button B State", "identifier": "org.microbit.characteristic.button.b_state", "uuid": "E95DDA91-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "micro:bit Pin Data", "identifier": "org.micro.bit.characteristic.pin.data", "uuid": "E95D8D00-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Pin AD Configuration", "identifier": "org.micro.bit.characteristic.pin.ad_configuration", "uuid": "E95D5899-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Pin I/O Configuration", "identifier": "org.micro.bit.characteristic.pin.io_configuration", "uuid": "E95DB9FE-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit Pin Data", "identifier": "org.microbit.characteristic.pin.data", "uuid": "E95D8D00-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Pin AD Configuration", "identifier": "org.microbit.characteristic.pin.ad_configuration", "uuid": "E95D5899-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Pin I/O Configuration", "identifier": "org.microbit.characteristic.pin.io_configuration", "uuid": "E95DB9FE-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "micro:bit PWM Control", "identifier": "org.micro.bit.characteristic.pwm_control", "uuid": "E95DD822-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit PWM Control", "identifier": "org.microbit.characteristic.pwm_control", "uuid": "E95DD822-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "micro:bit LED Matrix State", "identifier": "org.micro.bit.characteristic.led.matrix_state", "uuid": "E95D7B77-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit LED Text", "identifier": "org.micro.bit.characteristic.led.text", "uuid": "E95D93EE-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Scrolling Delay", "identifier": "org.micro.bit.characteristic.scrolling_delay", "uuid": "E95D0D2D-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Requirements", "identifier": "org.micro.bit.characteristic.requirements", "uuid": "E95DB84C-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit LED Matrix State", "identifier": "org.microbit.characteristic.led.matrix_state", "uuid": "E95D7B77-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit LED Text", "identifier": "org.microbit.characteristic.led.text", "uuid": "E95D93EE-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Scrolling Delay", "identifier": "org.microbit.characteristic.scrolling_delay", "uuid": "E95D0D2D-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Requirements", "identifier": "org.microbit.characteristic.requirements", "uuid": "E95DB84C-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "micro:bit Event", "identifier": "org.micro.bit.characteristic.event", "uuid": "E95D9775-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Client Requirements", "identifier": "org.micro.bit.characteristic.client.requirements", "uuid": "E95D23C4-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Client Event", "identifier": "org.micro.bit.characteristic.client.event", "uuid": "E95D5404-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit Event", "identifier": "org.microbit.characteristic.event", "uuid": "E95D9775-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Client Requirements", "identifier": "org.microbit.characteristic.client.requirements", "uuid": "E95D23C4-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Client Event", "identifier": "org.microbit.characteristic.client.event", "uuid": "E95D5404-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "micro:bit DFU Control", "identifier": "org.micro.bit.characteristic.dfu.control", "uuid": "E95D93B1-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit DFU Control", "identifier": "org.microbit.characteristic.dfu.control", "uuid": "E95D93B1-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "micro:bit Temperature", "identifier": "org.micro.bit.characteristic.temperature", "uuid": "E95D9250-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
-    { "name": "micro:bit Temperature Period", "identifier": "org.micro.bit.characteristic.temperature_period", "uuid": "E95D1B25-251D-470A-A062-FA1922DFA9A8" , "source": "micro:bit"},
+    { "name": "micro:bit Temperature", "identifier": "org.microbit.characteristic.temperature", "uuid": "E95D9250-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
+    { "name": "micro:bit Temperature Period", "identifier": "org.microbit.characteristic.temperature_period", "uuid": "E95D1B25-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
     { "name": "Mesh Provisioning Data In", "identifier": "com.nordicsemi.service.mesh.provisioning.data_in", "uuid": "2ADB" , "source": "nordic"},
     { "name": "Mesh Provisioning Data Out", "identifier": "com.nordicsemi.service.mesh.provisioning.data_out", "uuid": "2ADC" , "source": "nordic"},
