@@ -226,7 +226,7 @@
     { "name": "Weight Scale Feature", "identifier": "org.bluetooth.characteristic.weight_scale_feature", "uuid": "0x2A9E", "source": "gss" },
     { "name": "Wind Chill", "identifier": "org.bluetooth.characteristic.wind_chill", "uuid": "0x2A79", "source": "gss" },
 
-    { "name": "Button State Characteristic", "identifier": "ccom.nordicsemi.characteristic.blinky.button_state", "uuid": "00001524-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
+    { "name": "Button State Characteristic", "identifier": "com.nordicsemi.characteristic.blinky.button_state", "uuid": "00001524-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "LED State Characteristic", "identifier": "com.nordicsemi.characteristic.blinky.led_state", "uuid": "00001525-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
 
     { "name": "UART Config characteristic", "identifier": "com.nordicsemi.characteristic.thingy.uart_config", "uuid": "EF680901-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
