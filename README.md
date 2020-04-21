@@ -5,19 +5,31 @@ Welcome to the Bluetooth Numbers Database, an online repository containing metad
 
 **Bluetooth Numbers Database** is maintained by Nordic Semiconductor ASA.
 
-## Scope
+## Background
 
-The Bluetooth Specification makes heave use of a Universally Unique Identifier field, known **UUID** for short, to define multiple key elements in the spec, such as a device's manufacturer information. In the development of our own tools, it was discovered many of these definitions were duplicated and redefined in a variety of projects, hence the need to unify that body of work into a single, cohesive project representing a [Single Source of Truth](https://en.wikipedia.org/wiki/Single_source_of_truth).
+During the development of various Bluetooth tools at Nordic, many of the assigned numbers from the Bluetooth specificaiton have been taken into use in different areas, which has lead to duplication of effort between the different tools. Hence it has been seen as beneficial to unify the work efforts by using a single, cohesive project representing a [Single Source of Truth](https://en.wikipedia.org/wiki/Single_source_of_truth).
 
-In addition, it is common-case within the Bluetooth community, and covered by the specification, to extend the SIG-defined elements with proprietary definitions that do not overlap with the standard. This is perfectly allowed, but without a single place to check against whether your proposed UUID is used by others, we run the risk of having multiple uses for the same identifier.
+In addition to looking up officially defined numbers, it is common to extend the SIG-defined numbers with proprietary definitions that do not overlap with the standard. Such extension is permitted, but unless there is a place to check against whether your proposed UUID is used by others, we run the risk of having multiple uses for the same identifier.
 
-Bluetooth Numbers Database aims to solve this problem, as a centralised database for querying Company IDs and GATT Attributes, and is open to anyone who would like to contribute.
+Bluetooth Numbers Database aims to solve this problem by providing centralized database for querying UUIDs and Company identifiers. It is also open to anyone who would like to contribute.
 
-## Specification
+## Database Schemas
 
-As part of the 'v1' release, two types of data structures are used, both of them defined as [JSON Schemas](http://json-schema.org/learn/getting-started-step-by-step.html). They are:
+For the 'v1' release of the database, two types of data structures are used: UUIDs and Conpany Identifiers. Both of them defined as [JSON Schemas](http://json-schema.org/learn/getting-started-step-by-step.html).
 
-### Company IDs
+### UUID Definitions
+UUID definitions specified in this project use the following data structure:
+
+| Field | Type | Description | Required |
+| ------|------|----------| --- |
+| uuid | `String` | **Unique Number** identifying the specific GATT Attribute. The number can be 16 or 128 bits UUID, and must comply with the format as defined in the [Bluetooth Core specification](https://www.bluetooth.com/specifications/bluetooth-core-specification/). Examples: "2902" for Client Characteristic Configuration Descriptor, "EF680100-9B35-4933-9B10-52FFA9740042" for Thingy Configuration Service.  | **Yes** |
+| name | `String` | The GATT Attribute's name. | **Yes** |
+| identifier | `String` | **Uniform Type Identifier**, a reverse-dot notation String used to set the context of the attribute. Apply the following naming convention to the identifier: (reverse domain URL).(attribute type).(generic use case).(specific use case). Example: `com.company.characteristic.example.configuration` | **Yes** |
+| source | `String` | The source of the UUID's definition. For example: all GATT Services, Characteristics and Descriptors have a `gss` specification value. Accordingly, Nordic-defined Services, Characteristics and/or Descriptors are marked with a `nordic` source value. | **Yes** |
+
+We have based the data structure above on the official listing of GATT Specifications as much as possible. You can check  [this listing of GATT Characteristics for reference](https://www.bluetooth.com/specifications/gatt/characteristics/). And as above, you can check our JSON Schema [here](https://github.com/NordicSemiconductor/bluetooth-uuid-database/blob/master/v1/gatt_schema.json).
+
+### Company Identifiers
 
 | Field | Type | Description | Required |
 | ------|------|----------| --- |
@@ -25,19 +37,6 @@ As part of the 'v1' release, two types of data structures are used, both of them
 | name | `String` | Name of the Company | **Yes** |
 
 This structure is only used for one purpose, which is to mirror  the Official Bluetooth SIG Specification regarding Manufacturers (Companies). The full JSON Schema for the Company ID Data Structure can be found [here](https://github.com/NordicSemiconductor/bluetooth-uuid-database/blob/master/v1/company_schema.json).
-
-### GATT Attributes
-
-This same Data Structure is used for Services, Characteristics and Descriptors:
-
-| Field | Type | Description | Required |
-| ------|------|----------| --- |
-| uuid | `String` | **Unique Number** identifying the specific GATT Attribute. Unique Numbers can either be 16-bit, like "2902" for Client Characteristic Configuration Descriptor, or 128-bit, like "EF680100-9B35-4933-9B10-52FFA9740042" for Thingy Configuration Service. | **Yes** |
-| name | `String` | The GATT Attribute's name. | **Yes** |
-| identifier | `String` | **Unique Uniform Type Identifier**, a reverse-dot notation String used to set the context of the attribute. For example, many attributes could use "Configuration" as a name, and to differentiate them, we can rely on their identifier, such as `com.company.service.example.configuration` versus `com.company.characteristic.example.configuration` to discern whether it's a Service or a Characteristic respectively. | **Yes** |
-| source | `String` | The source of the attribute's definition. For example: all GATT Services, Characteristics and Descriptors have a `gss` specification value. Accordingly, Nordic-defined Services, Characteristics and/or Descriptors are marked with a `nordic` source value. | **Yes** |
-
-We have based the data structure above on the official listing of GATT Specifications as much as possible. You can check  [this listing of GATT Characteristics for reference](https://www.bluetooth.com/specifications/gatt/characteristics/). And as above, you can check our JSON Schema [here](https://github.com/NordicSemiconductor/bluetooth-uuid-database/blob/master/v1/gatt_schema.json).
 
 ## Rules and Contributions
 
