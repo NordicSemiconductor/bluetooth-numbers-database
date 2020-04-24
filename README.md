@@ -11,7 +11,7 @@ During the development of various Bluetooth tools at Nordic, many of the assigne
 
 In addition to looking up officially defined numbers, it is common to extend the SIG-defined numbers with proprietary definitions that do not overlap with the standard. Such extension is permitted, but unless there is a place to check against whether your proposed UUID is used by others, we run the risk of having multiple uses for the same identifier.
 
-Bluetooth Numbers Database aims to solve this problem by providing centralized database for querying UUIDs and Company identifiers. It is also open to anyone who would like to contribute.
+Bluetooth Numbers Database aims to solve this problem by providing a centralized database for querying UUIDs and Company identifiers. It is also open to anyone who would like to contribute.
 
 ## Database Schemas
 
