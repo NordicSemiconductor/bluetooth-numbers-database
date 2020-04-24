@@ -7,7 +7,7 @@ Welcome to the Bluetooth Numbers Database, an online repository containing metad
 
 ## Background
 
-During the development of various Bluetooth tools at Nordic, many of the assigned numbers from the Bluetooth specificaiton have been taken into use in different areas, which has lead to duplication of effort between the different tools. Hence it has been seen as beneficial to unify the work efforts by using a single, cohesive project representing a [Single Source of Truth](https://en.wikipedia.org/wiki/Single_source_of_truth).
+During the development of various Bluetooth tools at Nordic, many of the assigned numbers from the Bluetooth specifications have been taken into use in different areas, which has lead to duplication of effort between the different tools. Hence it has been seen as beneficial to unify the work efforts by using a single, cohesive project representing a [Single Source of Truth](https://en.wikipedia.org/wiki/Single_source_of_truth).
 
 In addition to looking up officially defined numbers, it is common to extend the SIG-defined numbers with proprietary definitions that do not overlap with the standard. Such extension is permitted, but unless there is a place to check against whether your proposed UUID is used by others, we run the risk of having multiple uses for the same identifier.
 
