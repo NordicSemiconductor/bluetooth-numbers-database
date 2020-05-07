@@ -342,9 +342,9 @@
     { "name": "micro:bit Temperature", "identifier": "org.microbit.characteristic.temperature", "uuid": "E95D9250-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
     { "name": "micro:bit Temperature Period", "identifier": "org.microbit.characteristic.temperature_period", "uuid": "E95D1B25-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "Mesh Provisioning Data In", "identifier": "com.nordicsemi.service.mesh.provisioning.data_in", "uuid": "2ADB" , "source": "nordic"},
-    { "name": "Mesh Provisioning Data Out", "identifier": "com.nordicsemi.service.mesh.provisioning.data_out", "uuid": "2ADC" , "source": "nordic"},
+    { "name": "Mesh Provisioning Data In", "identifier": "org.bluetooth.characteristic.mesh_provisioning_data_in", "uuid": "2ADB" , "source": "gss"},
+    { "name": "Mesh Provisioning Data Out", "identifier": "org.bluetooth.characteristic.mesh_provisioning_data_out", "uuid": "2ADC" , "source": "gss"},
 
-    { "name": "Mesh Proxy Data In", "identifier": "com.nordicsemi.service.mesh.proxy.data_in", "uuid": "2ADD" , "source": "nordic"},
-    { "name": "Mesh Proxy Data Out", "identifier": "com.nordicsemi.service.mesh.proxy.data_out", "uuid": "2ADE" , "source": "nordic"}
+    { "name": "Mesh Proxy Data In", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_in", "uuid": "2ADD" , "source": "gss"},
+    { "name": "Mesh Proxy Data Out", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_out", "uuid": "2ADE" , "source": "gss"}
 ]
