@@ -68,11 +68,5 @@
 
     { "name": "Legacy DFU Service", "identifier": "com.nordicsemi.service.dfu.legacy", "uuid": "00001530-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "Secure DFU Service", "identifier": "com.nordicsemi.service.dfu.secure", "uuid": "FE59" , "source": "nordic"},
-    { "name": "Buttonless Experimental DFU Service", "identifier": "com.nordicsemi.service.dfu.buttonless_experimental", "uuid": "8E400001-F315-4F60-9FB8-838830DAEA50" , "source": "nordic"},
-
-    { "name": "Mesh Provisioning Data In", "identifier": "com.nordicsemi.service.mesh.provisioning.data_in", "uuid": "2ADB" , "source": "nordic"},
-    { "name": "Mesh Provisioning Data Out", "identifier": "com.nordicsemi.service.mesh.provisioning.data_out", "uuid": "2ADC" , "source": "nordic"},
-
-    { "name": "Mesh Proxy Data In", "identifier": "com.nordicsemi.service.mesh.proxy.data_in", "uuid": "2ADD" , "source": "nordic"},
-    { "name": "Mesh Proxy Data Out", "identifier": "com.nordicsemi.service.mesh.proxy.data_out", "uuid": "2ADE" , "source": "nordic"}
+    { "name": "Buttonless Experimental DFU Service", "identifier": "com.nordicsemi.service.dfu.buttonless_experimental", "uuid": "8E400001-F315-4F60-9FB8-838830DAEA50" , "source": "nordic"}
 ]
