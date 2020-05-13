@@ -13,6 +13,14 @@ In addition to looking up officially defined numbers, it is common to extend the
 
 Bluetooth Numbers Database aims to solve this problem by providing a centralized database for querying UUIDs and Company identifiers. It is also open to anyone who would like to contribute.
 
+## Motivation
+
+The #1 question most Bluetooth developers will ask themselves when seeing this repo is a variation along the lines of `Don't need another library - I can write this in 5 minutes`. And whilst true, this does not cover the entire picture, because **it's everyone writing the same piece of code 5 minutes**, and then having to keep it up to date. That's the weight we're removing from you by using this community project. You don't need to worry about staying up to date regarding new Company IDs or GATT Attributes - just write code that pulls information from this repo every once in a while, and your apps will permanently be kept up to date. No need for reinventing the wheel.
+
+## Is This For Me? (Use Case Example)
+
+If you're involved with any software wherein Bluetooth UUIDs (GATT Attributes) or Manufacturer IDs need to be shown to the user in readable form, such as displaying their associated names or descriptions, this project is just for you. Pull the information you need directly from our `/v1/` endpoint folder, and you're good to go. Schema Definitions are just below, and you can be sure that the integrity of said files and schemas will be maintained through our automated tests.
+
 ## Database Schemas
 
 For the 'v1' release of the database, two types of data structures are used: UUIDs and Conpany Identifiers. Both of them defined as [JSON Schemas](http://json-schema.org/learn/getting-started-step-by-step.html).
@@ -47,7 +55,3 @@ The full JSON Schema for the Company ID Data Structure can be found [here](https
 * No duplicate 128-bit UUIDs or identifiers within each GATT Attribute Category (Services, Characteristics and Descriptors) are allowed. If a conflict exists, it'll be managed on a case-to-case basis.
 
 Furthermore, please feel free to raise issues or pull requests with your own suggestions about how this project can or should improve. **We at Nordic do not view Bluetooth Numbers Database as our property**, but as a shared endeavour with the rest of the developer and Bluetooth communities. 
-
-## Motivation
-
-The #1 question most Bluetooth developers will ask themselves when seeing this repo is a variation along the lines of `Don't need another library - I can write this in 5 minutes`. And whilst true, this does not cover the entire picture, because **it's everyone writing the same piece of code 5 minutes**, and then having to keep it up to date. That's the weight we're removing from you by using this community project. You don't need to worry about staying up to date regarding new Company IDs or GATT Attributes - just write code that pulls information from this repo every once in a while, and your apps will permanently be kept up to date. No need for reinventing the wheel.
