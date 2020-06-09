@@ -1,6 +1,6 @@
 # Bluetooth Numbers Database
 ![Logo](https://github.com/NordicSemiconductor/bluetooth-numbers-database/blob/master/header.png)
-![](https://github.com/NordicSemiconductor/bluetooth-uuid-database/workflows/Verify%20JSON%20Schemas/badge.svg)![](https://github.com/NordicSemiconductor/bluetooth-uuid-database/workflows/Check%20No%20Duplicates/badge.svg)
+![](https://github.com/NordicSemiconductor/bluetooth-numbers-database/workflows/Verify%20JSON%20Schemas/badge.svg)![](https://github.com/NordicSemiconductor/bluetooth-numbers-database/workflows/Check%20No%20Duplicates/badge.svg)
 
 Welcome to the Bluetooth Numbers Database, an online repository containing metadata and definitions for a subset of [Bluetooth Assigned Numbers](https://www.bluetooth.com/specifications/assigned-numbers/). The goal of this project is to provide a shared open platform to access from a variety of platforms, such as web and mobile, with the intention of covering both GATT and industry specifications.
 
@@ -36,7 +36,7 @@ UUID definitions specified in this project use the following data structure:
 | identifier | `String` | **Uniform Type Identifier**, a reverse-dot notation String used to set the context of the attribute. Apply the following naming convention to the identifier: (reverse domain URL).(attribute type).(generic use case).(specific use case). Example: `com.company.characteristic.example.configuration` | **Yes** |
 | source | `String` | The source of the UUID's definition. For example: all GATT Services, Characteristics and Descriptors have a `gss` specification value. Accordingly, Nordic-defined Services, Characteristics and/or Descriptors are marked with a `nordic` source value. | **Yes** |
 
-We have based the data structure above on the official listing of GATT Specifications as much as possible. You can check  [this listing of GATT Characteristics for reference](https://www.bluetooth.com/specifications/gatt/characteristics/). And as above, you can check our JSON Schema [here](https://github.com/NordicSemiconductor/bluetooth-uuid-database/blob/master/v1/gatt_schema.json).
+We have based the data structure above on the official listing of GATT Specifications as much as possible. You can check  [this listing of GATT Characteristics for reference](https://www.bluetooth.com/specifications/gatt/characteristics/). And as above, you can check our JSON Schema [here](https://github.com/NordicSemiconductor/bluetooth-numbers-database/blob/master/v1/gatt_schema.json).
 
 ### Company Identifiers
 
@@ -46,7 +46,7 @@ We have based the data structure above on the official listing of GATT Specifica
 | name | `String` | Name of the Company | **Yes** |
 
 This structure is a mirror of the official Bluetooth Specification. It is added as a convenience so that each application does not need to download and transfrom the online listings at the Bluetooth official website. Note that registration of new Company Identifiers must go through official channels at Bluetooth SIG.
-The full JSON Schema for the Company ID Data Structure can be found [here](https://github.com/NordicSemiconductor/bluetooth-uuid-database/blob/master/v1/company_schema.json).
+The full JSON Schema for the Company ID Data Structure can be found [here](https://github.com/NordicSemiconductor/bluetooth-numbers-database/blob/master/v1/company_schema.json).
 
 ## Rules and Contributions
 
@@ -55,4 +55,4 @@ The full JSON Schema for the Company ID Data Structure can be found [here](https
 * Many 16-bit UUIDs assigned to Bluetooth SIG Members are currently missing, because the official listing does not provide enough information. We are hoping the onwers of said UUIDs could either provide us with the information we need (Description and Identifier), or submit a pull request themselves.
 * No duplicate 128-bit UUIDs or identifiers within each GATT Attribute Category (Services, Characteristics and Descriptors) are allowed. If a conflict exists, it'll be managed on a case-to-case basis.
 
-Furthermore, please feel free to raise issues or pull requests with your own suggestions about how this project can or should improve. **We at Nordic do not view Bluetooth Numbers Database as our property**, but as a shared endeavour with the rest of the developer and Bluetooth communities. 
+Furthermore, please feel free to raise issues or pull requests with your own suggestions about how this project can or should improve. **We at Nordic do not view Bluetooth Numbers Database as our property**, but as a shared endeavour with the rest of the developer and Bluetooth communities.
