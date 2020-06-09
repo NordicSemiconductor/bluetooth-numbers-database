@@ -252,8 +252,8 @@
     { "name": "Pressure", "identifier": "com.nordicsemi.characteristic.thingy.pressure", "uuid": "EF680202-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Humidity", "identifier": "com.nordicsemi.characteristic.thingy.humidity", "uuid": "EF680203-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Air Quality", "identifier": "com.nordicsemi.characteristic.thingy.gas", "uuid": "EF680204-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Color", "identifier": "com.nordicsemi.characteristic.thingy.color", "uuid": "EF68205-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Configuration", "identifier": "com.nordicsemi.characteristic.thingy.configuration", "uuid": "EF68206-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Color", "identifier": "com.nordicsemi.characteristic.thingy.color", "uuid": "EF680205-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Configuration", "identifier": "com.nordicsemi.characteristic.thingy.configuration", "uuid": "EF680206-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
 
     { "name": "LED State", "identifier": "com.nordicsemi.characteristic.thingy.led", "uuid": "EF680301-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Button State", "identifier": "com.nordicsemi.characteristic.thingy.button", "uuid": "EF680302-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
@@ -269,7 +269,7 @@
     { "name": "Rotation Matrix", "identifier": "com.nordicsemi.characteristic.thingy.rotation_matrix", "uuid": "EF680408-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Heading", "identifier": "com.nordicsemi.characteristic.thingy.heading", "uuid": "EF680409-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Gravity Vector", "identifier": "com.nordicsemi.characteristic.thingy.gravity_vector", "uuid": "EF68040A-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    
+
     { "name": "Sound Config", "identifier": "com.nordicsemi.characteristic.thingy.sound_config", "uuid": "EF680501-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Speaker Data", "identifier": "com.nordicsemi.characteristic.thingy.speaker_data", "uuid": "EF680502-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Speaker Status", "identifier": "com.nordicsemi.characteristic.thingy.speaker_status", "uuid": "EF680503-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
