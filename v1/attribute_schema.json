@@ -3,7 +3,7 @@
   "items": {
     "type": "object",
     "properties": {
-      "uuid": { "type": "string" },
+      "uuid": { "type": "string", "pattern": "^([A-F0-9]{4}|[A-F0-9]{8}-[A-F0-9]{4}-[A-F0-9]{4}-[A-F0-9]{4}-[A-F0-9]{12})$" },
       "identifier": { "type": "string" },
       "name": { "type": "string" },
       "source": { "type": "string" }
