@@ -277,8 +277,8 @@
     { "name": "Pressure characteristic", "identifier": "com.nordicsemi.characteristic.thingy.pressure", "uuid": "EF680202-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Humidity characteristic", "identifier": "com.nordicsemi.characteristic.thingy.humidity", "uuid": "EF680203-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Gas (Air quality) characteristic", "identifier": "com.nordicsemi.characteristic.thingy.gas", "uuid": "EF680204-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Color characteristic", "identifier": "com.nordicsemi.characteristic.thingy.color", "uuid": "EF68205-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Configuration characteristic", "identifier": "com.nordicsemi.characteristic.thingy.configuration", "uuid": "EF68206-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Color characteristic", "identifier": "com.nordicsemi.characteristic.thingy.color", "uuid": "EF680205-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Configuration characteristic", "identifier": "com.nordicsemi.characteristic.thingy.configuration", "uuid": "EF680206-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
 
     { "name": "Device Name Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.device_name", "uuid": "EF680101-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Advertising Param Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.advertising_param", "uuid": "EF680102-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
