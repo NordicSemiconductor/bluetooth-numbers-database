@@ -57,6 +57,7 @@
     { "name": "Thingy UI Service", "identifier": "com.nordicsemi.service.thingy_ui", "uuid": "EF680300-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Thingy Motion Service", "identifier": "com.nordicsemi.service.thingy_motion", "uuid": "EF680400-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Thingy Sound Service", "identifier": "com.nordicsemi.service.thingy_sound", "uuid": "EF680500-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    
     { "name": "Nordic LED and Button Service", "identifier": "com.nordicsemi.service.led_and_button", "uuid": "00001523-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "Nordic UART Service", "identifier": "com.nordicsemi.service.uart", "uuid": "6E400001-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
 
@@ -64,5 +65,5 @@
 
     { "name": "Legacy DFU Service", "identifier": "com.nordicsemi.service.dfu.legacy", "uuid": "00001530-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "Secure DFU Service", "identifier": "com.nordicsemi.service.dfu.secure", "uuid": "FE59" , "source": "nordic"},
-    { "name": "Buttonless Experimental DFU Service", "identifier": "com.nordicsemi.service.dfu.buttonless_experimental", "uuid": "8E400001-F315-4F60-9FB8-838830DAEA50" , "source": "nordic"}
+    { "name": "Experimental Buttonless DFU Service", "identifier": "com.nordicsemi.service.dfu.buttonless_experimental", "uuid": "8E400001-F315-4F60-9FB8-838830DAEA50" , "source": "nordic"}
 ]
