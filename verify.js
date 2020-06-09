@@ -22,7 +22,7 @@ const noDuplicates = Object.keys(db)
     if (list === 'companies') {
       let companyCodes = db[list].map(company => company.code);
       numberOfItems = companyCodes.length;
-      numberOfUniques = (new Set(companyCodes)).size;  
+      numberOfUniques = (new Set(companyCodes)).size;
     } else {
       // GATT Attributes
       let uuids = db[list].map(gatt => gatt.uuid);
@@ -35,9 +35,18 @@ const noDuplicates = Object.keys(db)
         console.error(`Failed to verify '${list}': '${numberOfItems - numberOfUniqueIdentifiers}' duplicate Identifier(s) found.`);
         return false;
       }
+
+      const uuidtest = db[list].map(({ uuid }, i) => {
+        if (! /^([A-F0-9]{4}|[A-F0-9]{8}-[A-F0-9]{4}-[A-F0-9]{4}-[A-F0-9]{4}-[A-F0-9]{12})$/.test(uuid)) {
+          console.error(`Found incorrect uuid ${uuid} of item #${i} in ${list}`);
+          return false;
+        }
+        return true;
+      }).every(v => v);
+      if (! uuidtest) return false;
     }
 
-    if (numberOfItems !== numberOfUniques) {            
+    if (numberOfItems !== numberOfUniques) {
       console.error(`Failed to verify '${list}': '${numberOfItems - numberOfUniques}' duplicate UUID(s) found.`);
       return false;
     }
