@@ -65,5 +65,7 @@
 
     { "name": "Legacy DFU Service", "identifier": "com.nordicsemi.service.dfu.legacy", "uuid": "00001530-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "Secure DFU Service", "identifier": "com.nordicsemi.service.dfu.secure", "uuid": "FE59" , "source": "nordic"},
-    { "name": "Experimental Buttonless DFU Service", "identifier": "com.nordicsemi.service.dfu.buttonless_experimental", "uuid": "8E400001-F315-4F60-9FB8-838830DAEA50" , "source": "nordic"}
+    { "name": "Experimental Buttonless DFU Service", "identifier": "com.nordicsemi.service.dfu.buttonless_experimental", "uuid": "8E400001-F315-4F60-9FB8-838830DAEA50" , "source": "nordic"},
+
+    { "name": "DFU SMP Service Client", "identifier": "com.nordicsemi.service.mcumgr.dfu", "uuid": "8D53DC1D-1DB7-4CD3-868B-8A527460AA84" , "source": "nordic"}
 ]
