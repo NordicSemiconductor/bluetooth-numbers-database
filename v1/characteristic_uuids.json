@@ -240,6 +240,8 @@
 
     { "name": "Experimental Buttonless DFU", "identifier": "com.nordicsemi.characteristic.dfu.buttonless_experimental", "uuid": "8E400001-F315-4F60-9FB8-838830DAEA50" , "source": "nordic"},
 
+    { "name": "SMP Characteristic", "identifier": "io.runtime.mcumgr.ble.smp", "uuid": "DA2E7828-FBCE-4E01-AE9E-261174997C48" , "source": "apache"},
+
     { "name": "Device Name", "identifier": "com.nordicsemi.characteristic.thingy.device_name", "uuid": "EF680101-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Advertising Parameters", "identifier": "com.nordicsemi.characteristic.thingy.advertising_param", "uuid": "EF680102-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Connection Parameters", "identifier": "com.nordicsemi.characteristic.thingy.connection_param", "uuid": "EF680104-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
