@@ -61,6 +61,7 @@
     { "name": "Nordic LED and Button Service", "identifier": "com.nordicsemi.service.led_and_button", "uuid": "00001523-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "Nordic UART Service", "identifier": "com.nordicsemi.service.uart", "uuid": "6E400001-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
 
+    { "name": "Eddystone Service", "identifier": "com.google.eddystone.service", "uuid": "FEAA" , "source": "eddystone"},
     { "name": "Eddystone Configuration Service", "identifier": "com.google.eddystone.service.configuration", "uuid": "A3C87500-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "eddystone"},
 
     { "name": "Legacy DFU Service", "identifier": "com.nordicsemi.service.dfu.legacy", "uuid": "00001530-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
