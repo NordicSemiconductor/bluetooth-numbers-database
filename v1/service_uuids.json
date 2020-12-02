@@ -39,6 +39,7 @@
     { "name": "Tx Power", "identifier": "org.bluetooth.service.tx_power" , "uuid": "1804" , "source": "gss"},
     { "name": "User Data", "identifier": "org.bluetooth.service.user_data" , "uuid": "181C" , "source": "gss"},
     { "name": "Weight Scale", "identifier": "org.bluetooth.service.weight_scale", "uuid": "181D" , "source": "gss"},
+    { "name": "Firmware Revision", "identifier": "org.bluetooth.service.firmware_revision", "uuid": "2A26" , "source": "gss"},
 
     { "name": "Apple Notification Center Service", "identifier": "com.apple.service.notification_center", "uuid": "7905F431-B5CE-4E99-A40F-4B1E122D00D0" , "source": "apple"},
     { "name": "Apple Media Service", "identifier": "com.apple.service.media", "uuid": "89D3502B-0F36-433A-8EF4-C502AD55F8DC" , "source": "apple"},
@@ -61,8 +62,10 @@
     { "name": "Nordic LED and Button Service", "identifier": "com.nordicsemi.service.led_and_button", "uuid": "00001523-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "Nordic UART Service", "identifier": "com.nordicsemi.service.uart", "uuid": "6E400001-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
 
-    { "name": "Eddystone", "identifier": "com.google.eddystone.service", "uuid": "FEAA" , "source": "google"},
-    { "name": "Eddystone Configuration Service", "identifier": "com.google.eddystone.service.configuration", "uuid": "A3C87500-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
+    { "name": "Eddystone", "identifier": "com.google.service.eddystone", "uuid": "FEAA" , "source": "google"},
+    { "name": "Eddystone Configuration Service", "identifier": "com.google.service.eddystone.configuration", "uuid": "A3C87500-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
+    
+    { "name": "Fast Pair Service", "identifier": "com.google.service.fast_pair", "uuid": "FE2C" , "source": "google"},
 
     { "name": "Legacy DFU Service", "identifier": "com.nordicsemi.service.dfu.legacy", "uuid": "00001530-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "Secure DFU Service", "identifier": "com.nordicsemi.service.dfu.secure", "uuid": "FE59" , "source": "nordic"},
