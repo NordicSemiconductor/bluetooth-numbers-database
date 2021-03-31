@@ -24,7 +24,7 @@ If you're involved with any software wherein Bluetooth UUIDs (GATT Attributes) o
 
 ## Database Schemas
 
-For the 'v1' release of the database, two types of data structures are used: UUIDs and Conpany Identifiers. Both of them defined as [JSON Schemas](http://json-schema.org/learn/getting-started-step-by-step.html).
+For the 'v1' release of the database, two types of data structures are used: UUIDs and Company Identifiers. Both of them defined as [JSON Schemas](http://json-schema.org/learn/getting-started-step-by-step.html).
 
 ### UUID Definitions
 UUID definitions specified in this project use the following data structure:
