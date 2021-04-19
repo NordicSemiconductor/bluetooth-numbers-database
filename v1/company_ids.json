@@ -2587,7 +2587,8 @@
     { "code": 2593, "name": "Apollogic Sp. z o.o." },
     { "code": 2594, "name": "DAIICHIKOSHO CO., LTD." },
     { "code": 2595, "name": "BIXOLON CO.,LTD" },
-
+    { "code": 2596, "name": "Atmosic Technologies, Inc." },
+    { "code": 2597, "name": "Eran Financial Services LLC" },
     {
       "code": 65535,
       "name": "Bluetooth SIG Specification Reserved Default Vendor ID for Remote Devices Without Device ID Service Record."
