@@ -347,5 +347,22 @@
     { "name": "Mesh Provisioning Data Out", "identifier": "org.bluetooth.characteristic.mesh_provisioning_data_out", "uuid": "2ADC" , "source": "gss"},
 
     { "name": "Mesh Proxy Data In", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_in", "uuid": "2ADD" , "source": "gss"},
-    { "name": "Mesh Proxy Data Out", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_out", "uuid": "2ADE" , "source": "gss"}
+    { "name": "Mesh Proxy Data Out", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_out", "uuid": "2ADE" , "source": "gss"},
+
+    { "name": "LEGO® WeDo 2.0 Hub Name Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_name", "uuid": "00001524-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub Button State Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_button", "uuid": "00001526-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub Attached I/O Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_io", "uuid": "00001527-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub Low Voltage Alert Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_low_voltage_alert", "uuid": "00001528-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub High Current Alert Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_high_current_alert", "uuid": "00001529-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub Low Signal Alert Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_low_signal_alert", "uuid": "0000152A-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub Power Off Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_power_off", "uuid": "0000152B-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub Port VCC Control Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_port_vcc", "uuid": "0000152C-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub Battery Type Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_battery_type", "uuid": "0000152D-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Hub Disconnect Characteristic", "identifier": "com.lego.characteristic.wedo2.hub_disconnect", "uuid": "0000152E-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Input Value Characteristic", "identifier": "com.lego.characteristic.wedo2.input_value", "uuid": "00001560-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Input Format Characteristic", "identifier": "com.lego.characteristic.wedo2.input_format", "uuid": "00001561-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Input Command Characteristic", "identifier": "com.lego.characteristic.wedo2.input_command", "uuid": "00001563-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® WeDo 2.0 Output Command Characteristic", "identifier": "com.lego.characteristic.wedo2.output_command", "uuid": "00001565-1212-EFDE-1523-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® Wireless Protocol v3 Hub Characteristic", "identifier": "com.lego.characteristic.lwp3.hub", "uuid": "00001624-1212-EFDE-1623-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® Wireless Protocol v3 Bootloader Characteristic", "identifier": "com.lego.characteristic.lwp3.bootloader", "uuid": "00001626-1212-EFDE-1623-785FEABCD123", "source": "lego"}
 ]
