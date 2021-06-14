@@ -102,6 +102,8 @@
     { "name": "IDD Status", "identifier": "org.bluetooth.characteristic.idd_status", "uuid": "2B21", "source": "gss" },
     { "name": "IDD Status Changed", "identifier": "org.bluetooth.characteristic.idd_status_changed", "uuid": "2B20", "source": "gss" },
     { "name": "IDD Status Reader Control Point", "identifier": "org.bluetooth.characteristic.idd_status_reader_control_point", "uuid": "2B24", "source": "gss" },
+    { "name": "Client Supported Features", "identifier": "org.bluetooth.characteristic.client_supported_features", "uuid": "2B29", "source": "gss" },
+    { "name": "Database Hash", "identifier": "org.bluetooth.characteristic.database_hash", "uuid": "2B2A", "source": "gss" },
     { "name": "IEEE 11073-20601 Regulatory Certification Data List", "identifier": "org.bluetooth.characteristic.ieee_11073-20601_regulatoryertification_data_list", "uuid": "2A2A", "source": "gss" },
     { "name": "Indoor Bike Data", "identifier": "org.bluetooth.characteristic.indoor_bike_data", "uuid": "2AD2", "source": "gss" },
     { "name": "Indoor Positioning Configuration", "identifier": "org.bluetooth.characteristic.indoor_positioning_configuration", "uuid": "2AAD", "source": "gss" },
