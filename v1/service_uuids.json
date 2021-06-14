@@ -73,5 +73,8 @@
 
     { "name": "Exposure Notification Service", "identifier": "com.apple.service.contacttracing", "uuid": "FD6F" , "source": "apple"},
 
-    { "name": "SMP Service", "identifier": "io.runtime.mcumgr.ble.smp", "uuid": "8D53DC1D-1DB7-4CD3-868B-8A527460AA84" , "source": "apache"}
+    { "name": "SMP Service", "identifier": "io.runtime.mcumgr.ble.smp", "uuid": "8D53DC1D-1DB7-4CD3-868B-8A527460AA84" , "source": "apache"},
+
+    { "name": "LEGO® Wireless Protocol v3 Hub Service", "identifier": "com.lego.service.lwp3.hub", "uuid": "00001623-1212-EFDE-1623-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® Wireless Protocol v3 Bootloader Service", "identifier": "com.lego.service.lwp3.bootloader", "uuid": "00001625-1212-EFDE-1623-785FEABCD123", "source": "lego"}
 ]

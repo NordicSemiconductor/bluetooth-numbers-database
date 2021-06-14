@@ -347,5 +347,8 @@
     { "name": "Mesh Provisioning Data Out", "identifier": "org.bluetooth.characteristic.mesh_provisioning_data_out", "uuid": "2ADC" , "source": "gss"},
 
     { "name": "Mesh Proxy Data In", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_in", "uuid": "2ADD" , "source": "gss"},
-    { "name": "Mesh Proxy Data Out", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_out", "uuid": "2ADE" , "source": "gss"}
+    { "name": "Mesh Proxy Data Out", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_out", "uuid": "2ADE" , "source": "gss"},
+
+    { "name": "LEGO® Wireless Protocol v3 Hub Characteristic", "identifier": "com.lego.characteristic.lwp3.hub", "uuid": "00001624-1212-EFDE-1623-785FEABCD123", "source": "lego"},
+    { "name": "LEGO® Wireless Protocol v3 Bootloader Characteristic", "identifier": "com.lego.characteristic.lwp3.bootloader", "uuid": "00001626-1212-EFDE-1623-785FEABCD123", "source": "lego"}
 ]
