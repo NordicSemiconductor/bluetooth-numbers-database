@@ -393,3 +393,4 @@
 
     { "name": "Version", "identifier": "com.adafruit.characteristic.file_transfer_version", "uuid": "ADAF0100-4669-6C65-5472-616E73666572", "source": "adafruit"},
     { "name": "Raw TX/RX", "identifier": "com.adafruit.characteristic.file_transfer_raw", "uuid": "ADAF0200-4669-6C65-5472-616E73666572", "source": "adafruit"}
+]
