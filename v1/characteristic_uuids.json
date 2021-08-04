@@ -352,7 +352,7 @@
     { "name": "Mesh Proxy Data Out", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_out", "uuid": "2ADE" , "source": "gss"},
 
     { "name": "LEGO® Wireless Protocol v3 Hub Characteristic", "identifier": "com.lego.characteristic.lwp3.hub", "uuid": "00001624-1212-EFDE-1623-785FEABCD123", "source": "lego"},
-    { "name": "LEGO® Wireless Protocol v3 Bootloader Characteristic", "identifier": "com.lego.characteristic.lwp3.bootloader", "uuid": "00001626-1212-EFDE-1623-785FEABCD123", "source": "lego"}
+    { "name": "LEGO® Wireless Protocol v3 Bootloader Characteristic", "identifier": "com.lego.characteristic.lwp3.bootloader", "uuid": "00001626-1212-EFDE-1623-785FEABCD123", "source": "lego"},
 
     { "name": "Adafruit Sensor Measurement Period", "identifier": "com.adafruit.characteristic.measurement_period", "uuid": "ADAF0001-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
     { "name": "Adafruit Sensor Service Version", "identifier": "com.adafruit.characteristic.service_version", "uuid": "ADAF0002-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
@@ -392,4 +392,4 @@
     { "name": "Proximity", "identifier": "com.adafruit.characteristic.proximity", "uuid": "ADAF0E01-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
 
     { "name": "Version", "identifier": "com.adafruit.characteristic.file_transfer_version", "uuid": "ADAF0100-4669-6C65-5472-616E73666572", "source": "adafruit"},
-    { "name": "Raw TX/RX", "identifier": "com.adafruit.characteristic.file_transfer_raw", "uuid": "ADAF0200-4669-6C65-5472-616E73666572", "source": "adafruit"},
+    { "name": "Raw TX/RX", "identifier": "com.adafruit.characteristic.file_transfer_raw", "uuid": "ADAF0200-4669-6C65-5472-616E73666572", "source": "adafruit"}

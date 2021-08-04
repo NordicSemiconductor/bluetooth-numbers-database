@@ -76,7 +76,7 @@
     { "name": "SMP Service", "identifier": "io.runtime.mcumgr.ble.smp", "uuid": "8D53DC1D-1DB7-4CD3-868B-8A527460AA84" , "source": "apache"},
 
     { "name": "LEGO® Wireless Protocol v3 Hub Service", "identifier": "com.lego.service.lwp3.hub", "uuid": "00001623-1212-EFDE-1623-785FEABCD123", "source": "lego"},
-    { "name": "LEGO® Wireless Protocol v3 Bootloader Service", "identifier": "com.lego.service.lwp3.bootloader", "uuid": "00001625-1212-EFDE-1623-785FEABCD123", "source": "lego"}
+    { "name": "LEGO® Wireless Protocol v3 Bootloader Service", "identifier": "com.lego.service.lwp3.bootloader", "uuid": "00001625-1212-EFDE-1623-785FEABCD123", "source": "lego"},
 
     { "name": "File Transfer Service by Adafruit", "identifier": "com.adafruit.service.file_transfer", "uuid": "febb", "source": "adafruit"},
 
@@ -93,5 +93,5 @@
     { "name": "Adafruit Sound Service", "identifier": "com.adafruit.service.sound", "uuid": "ADAF0B00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
     { "name": "Adafruit Tone Service", "identifier": "com.adafruit.service.tone", "uuid": "ADAF0C00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
     { "name": "Adafruit Quaternion Service", "identifier": "com.adafruit.service.quaternion", "uuid": "ADAF0D00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
-    { "name": "Adafruit Proximity Service", "identifier": "com.adafruit.service.proximity", "uuid": "ADAF0E00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Proximity Service", "identifier": "com.adafruit.service.proximity", "uuid": "ADAF0E00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"}
 ]
