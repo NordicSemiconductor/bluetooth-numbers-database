@@ -78,7 +78,7 @@
     { "name": "LEGO® Wireless Protocol v3 Hub Service", "identifier": "com.lego.service.lwp3.hub", "uuid": "00001623-1212-EFDE-1623-785FEABCD123", "source": "lego"},
     { "name": "LEGO® Wireless Protocol v3 Bootloader Service", "identifier": "com.lego.service.lwp3.bootloader", "uuid": "00001625-1212-EFDE-1623-785FEABCD123", "source": "lego"},
 
-    { "name": "File Transfer Service by Adafruit", "identifier": "com.adafruit.service.file_transfer", "uuid": "febb", "source": "adafruit"},
+    { "name": "File Transfer Service by Adafruit", "identifier": "com.adafruit.service.file_transfer", "uuid": "FEBB", "source": "adafruit"},
 
     { "name": "Adafruit Temperature Service", "identifier": "com.adafruit.service.temperature", "uuid": "ADAF0100-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
     { "name": "Adafruit Accelerometer Service", "identifier": "com.adafruit.service.accelerometer", "uuid": "ADAF0200-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
