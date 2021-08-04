@@ -77,4 +77,21 @@
 
     { "name": "LEGO® Wireless Protocol v3 Hub Service", "identifier": "com.lego.service.lwp3.hub", "uuid": "00001623-1212-EFDE-1623-785FEABCD123", "source": "lego"},
     { "name": "LEGO® Wireless Protocol v3 Bootloader Service", "identifier": "com.lego.service.lwp3.bootloader", "uuid": "00001625-1212-EFDE-1623-785FEABCD123", "source": "lego"}
+
+    { "name": "File Transfer Service by Adafruit", "identifier": "com.adafruit.service.file_transfer", "uuid": "febb", "source": "adafruit"},
+
+    { "name": "Adafruit Temperature Service", "identifier": "com.adafruit.service.temperature", "uuid": "ADAF0100-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Accelerometer Service", "identifier": "com.adafruit.service.accelerometer", "uuid": "ADAF0200-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Light Service", "identifier": "com.adafruit.service.light", "uuid": "ADAF0300-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Gyroscope Service", "identifier": "com.adafruit.service.gyroscope", "uuid": "ADAF0400-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Magnetometer Service", "identifier": "com.adafruit.service.magnetometer", "uuid": "ADAF0500-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Button Service", "identifier": "com.adafruit.service.button", "uuid": "ADAF0600-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Humidity Service", "identifier": "com.adafruit.service.humidity", "uuid": "ADAF0700-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Barometric Service", "identifier": "com.adafruit.service.barometric", "uuid": "ADAF0800-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Addressable Service", "identifier": "com.adafruit.service.addressable_pixel", "uuid": "ADAF0900-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Color Service", "identifier": "com.adafruit.service.color", "uuid": "ADAF0A00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Sound Service", "identifier": "com.adafruit.service.sound", "uuid": "ADAF0B00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Tone Service", "identifier": "com.adafruit.service.tone", "uuid": "ADAF0C00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Quaternion Service", "identifier": "com.adafruit.service.quaternion", "uuid": "ADAF0D00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Proximity Service", "identifier": "com.adafruit.service.proximity", "uuid": "ADAF0E00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
 ]
