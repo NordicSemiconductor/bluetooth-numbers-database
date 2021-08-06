@@ -352,5 +352,45 @@
     { "name": "Mesh Proxy Data Out", "identifier": "org.bluetooth.characteristic.mesh_proxy_data_out", "uuid": "2ADE" , "source": "gss"},
 
     { "name": "LEGO® Wireless Protocol v3 Hub Characteristic", "identifier": "com.lego.characteristic.lwp3.hub", "uuid": "00001624-1212-EFDE-1623-785FEABCD123", "source": "lego"},
-    { "name": "LEGO® Wireless Protocol v3 Bootloader Characteristic", "identifier": "com.lego.characteristic.lwp3.bootloader", "uuid": "00001626-1212-EFDE-1623-785FEABCD123", "source": "lego"}
+    { "name": "LEGO® Wireless Protocol v3 Bootloader Characteristic", "identifier": "com.lego.characteristic.lwp3.bootloader", "uuid": "00001626-1212-EFDE-1623-785FEABCD123", "source": "lego"},
+
+    { "name": "Adafruit Sensor Measurement Period", "identifier": "com.adafruit.characteristic.measurement_period", "uuid": "ADAF0001-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Sensor Service Version", "identifier": "com.adafruit.characteristic.service_version", "uuid": "ADAF0002-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Temperature", "identifier": "com.adafruit.characteristic.temperature", "uuid": "ADAF0101-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Acceleration", "identifier": "com.adafruit.characteristic.acceleration", "uuid": "ADAF0201-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Light Level", "identifier": "com.adafruit.characteristic.light_level", "uuid": "ADAF0301-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Gyro", "identifier": "com.adafruit.characteristic.gyro", "uuid": "ADAF0401-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Magnetic", "identifier": "com.adafruit.characteristic.magnetic", "uuid": "ADAF0501-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Pressed", "identifier": "com.adafruit.characteristic.pressed", "uuid": "ADAF0601-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Humidity", "identifier": "com.adafruit.characteristic.humidity", "uuid": "ADAF0701-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Pressure", "identifier": "com.adafruit.characteristic.pressure", "uuid": "ADAF0801-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Pixel Pin", "identifier": "com.adafruit.characteristic.pixel_pin", "uuid": "ADAF0901-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Pixel Pin Type", "identifier": "com.adafruit.characteristic.pixel_pin_type", "uuid": "ADAF0902-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Pixel Data", "identifier": "com.adafruit.characteristic.pixel_data", "uuid": "ADAF0903-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Pixel Buffer Size", "identifier": "com.adafruit.characteristic.pixel_buffer_size", "uuid": "ADAF0904-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Color", "identifier": "com.adafruit.characteristic.color", "uuid": "ADAF0A01-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Sound Samples", "identifier": "com.adafruit.characteristic.sound_samples", "uuid": "ADAF0B01-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Number of Channels", "identifier": "com.adafruit.characteristic.number_of_channels", "uuid": "ADAF0B02-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Tone", "identifier": "com.adafruit.characteristic.tone", "uuid": "ADAF0C01-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Quaternions", "identifier": "com.adafruit.characteristic.quaternions", "uuid": "ADAF0D01-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Calibration In", "identifier": "com.adafruit.characteristic.quaternion_calibration_in", "uuid": "ADAF0D02-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+    { "name": "Adafruit Calibration Out", "identifier": "com.adafruit.characteristic.quaternion_calibration_out", "uuid": "ADAF0D03-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Proximity", "identifier": "com.adafruit.characteristic.proximity", "uuid": "ADAF0E01-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Adafruit Version", "identifier": "com.adafruit.characteristic.file_transfer_version", "uuid": "ADAF0100-4669-6C65-5472-616E73666572", "source": "adafruit"},
+    { "name": "Adafruit Raw TX/RX", "identifier": "com.adafruit.characteristic.file_transfer_raw", "uuid": "ADAF0200-4669-6C65-5472-616E73666572", "source": "adafruit"}
 ]
