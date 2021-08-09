@@ -14,8 +14,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 'use strict';
 
-const version = require('./package.json').version.split('.')[0];
-const pathForJson = filename => `${__dirname}/v${version}/${filename}.json`;
+const version = require('./package.json').version;
+const pathForJson = filename => `${__dirname}/v${version.split('.')[0]}/${filename}.json`;
 
 const companies = require(pathForJson('company_ids'));
 const services = require(pathForJson('service_uuids'));
