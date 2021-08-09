@@ -26,6 +26,7 @@ const companySchema = require(pathForJson('company_schema'));
 const attributeSchema = require(pathForJson('attribute_schema'));
 
 module.exports = {
+    version,
     companies,
     services,
     characteristics,

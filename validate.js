@@ -16,7 +16,7 @@ const ajv = new require('ajv')();
 const db = require('.');
 
 const allValid = Object.keys(db)
-  .filter(key => key !== 'schemas')
+  .filter(key => key !== 'schemas' && key !== 'version')
   .map(list => {
     if (!db.schemas[list]) {
       console.error(`Missing schema for '${list}'.`);
