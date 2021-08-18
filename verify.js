@@ -15,7 +15,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 const db = require('.');
 
 const noDuplicates = Object.keys(db)
-  .filter(key => key !== 'schemas')
+  .filter(key => key !== 'schemas' && key !== 'version')
   .map(list => {
     let numberOfItems;
     let numberOfUniques;
