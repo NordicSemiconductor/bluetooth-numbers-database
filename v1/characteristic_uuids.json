@@ -392,5 +392,9 @@
     { "name": "Adafruit Proximity", "identifier": "com.adafruit.characteristic.proximity", "uuid": "ADAF0E01-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
 
     { "name": "Adafruit Version", "identifier": "com.adafruit.characteristic.file_transfer_version", "uuid": "ADAF0100-4669-6C65-5472-616E73666572", "source": "adafruit"},
-    { "name": "Adafruit Raw TX/RX", "identifier": "com.adafruit.characteristic.file_transfer_raw", "uuid": "ADAF0200-4669-6C65-5472-616E73666572", "source": "adafruit"}
+    { "name": "Adafruit Raw TX/RX", "identifier": "com.adafruit.characteristic.file_transfer_raw", "uuid": "ADAF0200-4669-6C65-5472-616E73666572", "source": "adafruit"},
+
+    { "name": "Texas Instruments Image Identify", "identifier": "com.ti.characteristic.image_identity", "uuid": "F000FFC1-0451-4000-B000-000000000000", "source": "ti"},
+    { "name": "Texas Instruments Image Block", "identifier": "com.ti.characteristic.image_block", "uuid": "F000FFC2-0451-4000-B000-000000000000", "source": "ti"},
+    { "name": "Texas Instruments OAD Control", "identifier": "com.ti.characteristic.oad_control", "uuid": "F000FFC5-0451-4000-B000-000000000000", "source": "ti"}
 ]

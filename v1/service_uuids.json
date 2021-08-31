@@ -92,5 +92,7 @@
     { "name": "Adafruit Sound Service", "identifier": "com.adafruit.service.sound", "uuid": "ADAF0B00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
     { "name": "Adafruit Tone Service", "identifier": "com.adafruit.service.tone", "uuid": "ADAF0C00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
     { "name": "Adafruit Quaternion Service", "identifier": "com.adafruit.service.quaternion", "uuid": "ADAF0D00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
-    { "name": "Adafruit Proximity Service", "identifier": "com.adafruit.service.proximity", "uuid": "ADAF0E00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"}
+    { "name": "Adafruit Proximity Service", "identifier": "com.adafruit.service.proximity", "uuid": "ADAF0E00-C332-42A8-93BD-25E905756CB8", "source": "adafruit"},
+
+    { "name": "Texas Instruments Over-the-Air Download (OAD) Service", "identifier": "com.ti.service.oad", "uuid": "F000FFC0-0451-4000-B000-000000000000", "source": "ti"}
 ]
