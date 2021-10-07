@@ -130,7 +130,7 @@
     { "name": "Model Number String", "identifier": "org.bluetooth.characteristic.model_number_string", "uuid": "2A24", "source": "gss" },
     { "name": "Navigation", "identifier": "org.bluetooth.characteristic.navigation", "uuid": "2A68", "source": "gss" },
     { "name": "Network Availability", "identifier": "org.bluetooth.characteristic.network_availability", "uuid": "2A3E", "source": "gss" },
-    { "name": "New Aler", "identifier": "org.bluetooth.characteristic.new_alert", "uuid": "2A46", "source": "gss" },
+    { "name": "New Alert", "identifier": "org.bluetooth.characteristic.new_alert", "uuid": "2A46", "source": "gss" },
     { "name": "Object Action Control Point", "identifier": "org.bluetooth.characteristic.object_action_control_point", "uuid": "2AC5", "source": "gss" },
     { "name": "Object Changed", "identifier": "org.bluetooth.characteristic.object_changed", "uuid": "2AC8", "source": "gss" },
     { "name": "Object First-Created", "identifier": "org.bluetooth.characteristic.object_first_created", "uuid": "2AC1", "source": "gss" },
