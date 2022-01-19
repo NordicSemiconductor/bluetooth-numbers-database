@@ -1,6 +1,6 @@
 # Bluetooth Numbers Database
 ![Logo](https://github.com/NordicSemiconductor/bluetooth-numbers-database/blob/master/header.png)
-![](https://github.com/NordicSemiconductor/bluetooth-numbers-database/workflows/Verify%20JSON%20Schemas/badge.svg)![](https://github.com/NordicSemiconductor/bluetooth-numbers-database/workflows/Check%20No%20Duplicates/badge.svg)
+![](https://github.com/NordicSemiconductor/bluetooth-numbers-database/workflows/Verify%20JSON%20Schemas/badge.svg)![](https://github.com/NordicSemiconductor/bluetooth-numbers-database/workflows/Check%20No%20Duplicates/badge.svg)![](https://github.com/NordicSemiconductor/bluetooth-numbers-database/workflows/Check%20Successive%20Company%20IDs/badge.svg)
 
 Welcome to the Bluetooth Numbers Database, an online repository containing metadata and definitions for a subset of [Bluetooth Assigned Numbers](https://www.bluetooth.com/specifications/assigned-numbers/). The goal of this project is to provide a shared open platform to access from a variety of platforms, such as web and mobile, with the intention of covering both GATT and industry specifications.
 
