@@ -48,6 +48,11 @@
 
     { "name": "Apple Notification Center Service", "identifier": "com.apple.service.notification_center", "uuid": "7905F431-B5CE-4E99-A40F-4B1E122D00D0" , "source": "apple"},
     { "name": "Apple Media Service", "identifier": "com.apple.service.media", "uuid": "89D3502B-0F36-433A-8EF4-C502AD55F8DC" , "source": "apple"},
+    
+    { "name": "Apple Reserved Service", "identifier": "com.apple.service.7DFC6000", "uuid": "7DFC6000-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Service", "identifier": "com.apple.service.7DFC7000", "uuid": "7DFC7000-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Service", "identifier": "com.apple.service.7DFC8000", "uuid": "7DFC8000-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Service", "identifier": "com.apple.service.7DFC9000", "uuid": "7DFC9000-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
 
     { "name": "micro:bit Accelerometer Service", "identifier": "org.microbit.service.accelerometer", "uuid": "E95D0753-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
     { "name": "micro:bit Magnetometer Service", "identifier": "org.microbit.service.magnetometer", "uuid": "E95DF2D8-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
