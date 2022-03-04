@@ -322,6 +322,51 @@
     { "name": "Apple Entity Update", "identifier": "com.apple.characteristic.media.entity_update", "uuid": "2F7CABCE-808D-411F-9A0C-BB92BA96C102" , "source": "apple"},
     { "name": "Apple Entity Attribute", "identifier": "com.apple.characteristic.media.entity_attribute", "uuid": "C6B2F38C-23AB-46D8-A6AB-A3A870BBD5D7" , "source": "apple"},
 
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6001", "uuid": "7DFC6001-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6002", "uuid": "7DFC6002-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6003", "uuid": "7DFC6003-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6004", "uuid": "7DFC6004-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6005", "uuid": "7DFC6005-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6101", "uuid": "7DFC6101-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6102", "uuid": "7DFC6102-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6103", "uuid": "7DFC6103-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6104", "uuid": "7DFC6104-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6105", "uuid": "7DFC6105-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6106", "uuid": "7DFC6106-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6107", "uuid": "7DFC6107-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6108", "uuid": "7DFC6108-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6201", "uuid": "7DFC6201-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6202", "uuid": "7DFC6202-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC6203", "uuid": "7DFC6203-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7003", "uuid": "7DFC8003-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7004", "uuid": "7DFC7004-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7005", "uuid": "7DFC7005-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7006", "uuid": "7DFC7006-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7007", "uuid": "7DFC7007-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7008", "uuid": "7DFC7008-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7009", "uuid": "7DFC7009-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC700A", "uuid": "7DFC700A-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC700B", "uuid": "7DFC700B-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC700C", "uuid": "7DFC700C-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7103", "uuid": "7DFC7103-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7104", "uuid": "7DFC7104-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7105", "uuid": "7DFC7105-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7106", "uuid": "7DFC7106-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7107", "uuid": "7DFC7107-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7108", "uuid": "7DFC7108-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC7109", "uuid": "7DFC7109-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC710B", "uuid": "7DFC710B-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC710C", "uuid": "7DFC710C-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC710D", "uuid": "7DFC710D-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC8004", "uuid": "7DFC8004-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+
+    { "name": "Apple Reserved Characteristic", "identifier": "com.apple.characteristic.7DFC9001", "uuid": "7DFC9001-7D1C-4951-86AA-8D9728F8D66C" , "source": "apple"},
+
     { "name": "micro:bit Accelerometer Data", "identifier": "org.microbit.characteristic.accelerometer_data", "uuid": "E95DCA4B-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
     { "name": "micro:bit Accelerometer Period", "identifier": "org.microbit.characteristic.accelerometer_period", "uuid": "E95DFB24-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
