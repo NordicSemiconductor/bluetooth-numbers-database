@@ -446,6 +446,8 @@
     { "name": "Helium Hotspot Assert Location", "identifier": "com.helium.characteristic.assert_location", "uuid": "D435F5DE-01A4-4E7D-84BA-DFD347F60275", "source": "helium"},
     { "name": "Helium Hotspot Add Gateway", "identifier": "com.helium.characteristic.add_gateway", "uuid": "DF3B16CA-C985-4DA2-A6D2-9B9B9ABDB858", "source": "helium"},
     { "name": "Helium Hotspot WiFi Connect", "identifier": "com.helium.characteristic.wifi_connect", "uuid": "398168AA-0111-4EC0-B1FA-171671270608", "source": "helium"},
-    { "name": "Helium Hotspot Ethernet Online", "identifier": "com.helium.characteristic.ethernet_online", "uuid": "E5866BD6-0288-4476-98CA-EF7DA6B4D289", "source": "helium"}
+    { "name": "Helium Hotspot Ethernet Online", "identifier": "com.helium.characteristic.ethernet_online", "uuid": "E5866BD6-0288-4476-98CA-EF7DA6B4D289", "source": "helium"},
+    { "name": "Helium Hotspot WiFi Remove", "identifier": "com.helium.characteristic.wifi_remove", "uuid": "8CC6E0B3-98C5-40CC-B1D8-692940E6994B", "source": "helium"},
+    { "name": "Helium Hotspot WiFi Configured Services", "identifier": "com.helium.characteristic.wifi_configured_services", "uuid": "E125BDA4-6FB8-11EA-BC55-0242AC130003", "source": "helium"}
 
 ]
