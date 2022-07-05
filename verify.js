@@ -28,9 +28,9 @@ const noDuplicates = Object.keys(db)
       numberOfItems = uuids.length;
 
       let identifiers = db[list].map(gatt => gatt.identifier);
-      let numberOfUniqueIdentifiers = (new Set(identifiers)).size;
-      if (numberOfItems !== numberOfUniqueIdentifiers) {
-        console.error(`Failed to verify '${list}': '${numberOfItems - numberOfUniqueIdentifiers}' duplicate Identifier(s) found.`);
+      const duplicates = identifiers.filter((item, index) => identifiers.indexOf(item) !== index);
+      if (duplicates.length > 0) {
+        console.error(`Failed to verify '${list}', duplicate identifiers found: \n${duplicates.join('\n')}`);
         return false;
       }
 
