@@ -31,6 +31,22 @@ const noDuplicates = Object.keys(db)
       let numberOfUniqueIdentifiers = (new Set(identifiers)).size;
       if (numberOfItems !== numberOfUniqueIdentifiers) {
         console.error(`Failed to verify '${list}': '${numberOfItems - numberOfUniqueIdentifiers}' duplicate Identifier(s) found.`);
+        
+        let identifierCount = {};
+        for(let i = 0; i < identifierCount.length; i++){ 
+          if (identifierCount[identifiers[i]]) {
+            identifierCount[identifiers[i]] += 1;
+          } else {
+            identifierCount[identifiers[i]] = 1;
+          } 
+        }
+
+        for (let identifier in identifierCount) {
+          if (identifierCount[identifier] >= 2) {
+            console.error(identifier + " found " + duplicateCounter[identifier] + " times.");
+          }
+        }
+
         return false;
       }
 
