@@ -13,5 +13,6 @@
     { "name": "Environmental Sensing Configuration", "identifier": "org.bluetooth.descriptor.environmental_sensing_configuration", "uuid": "290B", "source": "gss"},
     { "name": "Environmental Sensing Measurement", "identifier": "org.bluetooth.descriptor.environmental_sensing_measurement", "uuid": "290C", "source": "gss"},
     { "name": "Environmental Sensing Trigger Setting", "identifier": "org.bluetooth.descriptor.environmental_sensing_trigger_setting", "uuid": "290D", "source": "gss"},
-    { "name": "Time Trigger Setting", "identifier": "org.bluetooth.descriptor.time_trigger_setting", "uuid": "290E", "source": "gss"}
+    { "name": "Time Trigger Setting", "identifier": "org.bluetooth.descriptor.time_trigger_setting", "uuid": "290E", "source": "gss"},
+    { "name": "Complete BR-EDR Transport Block Data", "identifier": "org.bluetooth.descriptor.complete_bredr_transport_block_data", "uuid": "290F", "source": "gss"}
 ]
