@@ -131,5 +131,7 @@
 
     { "name": "Texas Instruments Over-the-Air Download (OAD) Service", "identifier": "com.ti.service.oad", "uuid": "F000FFC0-0451-4000-B000-000000000000", "source": "ti"},
     
-    { "name": "Helium Hotspot Custom Service", "identifier": "com.helium.service.custom", "uuid": "0FDA92B2-44A2-4AF2-84F5-FA682BAA2B8D", "source": "helium"}
+    { "name": "Helium Hotspot Custom Service", "identifier": "com.helium.service.custom", "uuid": "0FDA92B2-44A2-4AF2-84F5-FA682BAA2B8D", "source": "helium" },
+
+    { "name": "Memfault Diagnostic Service", "identifier": "com.memfault.service.mds", "uuid": "54220001-F6A5-4007-A371-722F4EBD8436", "source": "memfault" }
 ]
