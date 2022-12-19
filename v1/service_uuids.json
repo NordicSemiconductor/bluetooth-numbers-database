@@ -62,11 +62,10 @@
     { "name": "Hearing Access", "identifier": "org.bluetooth.service.hearing_access", "uuid": "1854", "source": "gss" },
     { "name": "TMAS", "identifier": "org.bluetooth.service.tmas", "uuid": "1855", "source": "gss" },
 
-    { "name": "Signify Netherlands B.V. (formerly Phillips Lighting) Service", "identifier": "com.phillips-hue.service.signify_netherlands", "uuid": "FE0F" , "source": "phillips-hue"},
+    { "name": "Signify Netherlands B.V. (formerly Philips Lighting) Service", "identifier": "com.philips-hue.service.signify_netherlands", "uuid": "FE0F" , "source": "philips-hue"},
 
-    { "name": "Phillips Hue Light Control Service", "identifier": "com.phillips-hue.service.light_control", "uuid": "932C32BD-0000-47A2-835A-A8D455B859DD" , "source": "phillips-hue"},
-    { "name": "Phillips Hue Light Information Service", "identifier": "com.phillips-hue.service.light_information", "uuid": "0000180A-0000-1000-8000-00805F9B34FB" , "source": "phillips-hue"},
-    { "name": "Phillips Hue Light Update Service", "identifier": "com.phillips-hue.service.light_update", "uuid": "B8843ADD-0000-4AA1-8794-C3F462030BDA" , "source": "phillips-hue"},
+    { "name": "Philips Hue Light Control Service", "identifier": "com.philips-hue.service.light_control", "uuid": "932C32BD-0000-47A2-835A-A8D455B859DD" , "source": "philips-hue"},
+    { "name": "Philips Hue Light Update Service", "identifier": "com.philips-hue.service.light_update", "uuid": "B8843ADD-0000-4AA1-8794-C3F462030BDA" , "source": "philips-hue"},
 
     { "name": "Apple Notification Center Service", "identifier": "com.apple.service.notification_center", "uuid": "7905F431-B5CE-4E99-A40F-4B1E122D00D0" , "source": "apple"},
     { "name": "Apple Media Service", "identifier": "com.apple.service.media", "uuid": "89D3502B-0F36-433A-8EF4-C502AD55F8DC" , "source": "apple"},

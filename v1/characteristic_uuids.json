@@ -444,9 +444,9 @@
 
     { "name": "SMP Characteristic", "identifier": "io.runtime.mcumgr.ble.smp", "uuid": "DA2E7828-FBCE-4E01-AE9E-261174997C48" , "source": "apache"},
 
-    { "name": "Phillips Hue Light On/Off Toggle", "identifier": "com.phillips-hue.characteristic.toggle", "uuid": "932C32BD-0002-47A2-835A-A8D455B859DD" , "source": "phillips-hue"},
-    { "name": "Phillips Hue Light Brightness Level", "identifier": "com.phillips-hue.characteristic.brightness", "uuid": "932C32BD-0003-47A2-835A-A8D455B859DD" , "source": "phillips-hue"},
-    { "name": "Phillips Hue Light Color", "identifier": "com.phillips-hue.characteristic.color", "uuid": "932C32BD-0005-47A2-835A-A8D455B859DD" , "source": "phillips-hue"},
+    { "name": "Philips Hue Light On/Off Toggle", "identifier": "com.philips-hue.characteristic.toggle", "uuid": "932C32BD-0002-47A2-835A-A8D455B859DD" , "source": "philips-hue"},
+    { "name": "Philips Hue Light Brightness Level", "identifier": "com.philips-hue.characteristic.brightness", "uuid": "932C32BD-0003-47A2-835A-A8D455B859DD" , "source": "philips-hue"},
+    { "name": "Philips Hue Light Color", "identifier": "com.philips-hue.characteristic.color", "uuid": "932C32BD-0005-47A2-835A-A8D455B859DD" , "source": "philips-hue"},
 
     { "name": "Thingy Device Name", "identifier": "com.nordicsemi.characteristic.thingy.device_name", "uuid": "EF680101-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Thingy Advertising Parameters", "identifier": "com.nordicsemi.characteristic.thingy.advertising_param", "uuid": "EF680102-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
