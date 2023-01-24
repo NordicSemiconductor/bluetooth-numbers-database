@@ -499,7 +499,7 @@
     { "name": "Eddystone Public ECDH Key", "identifier": "com.google.characteristic.eddystone.key.public_ecdh", "uuid": "A3C87508-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
     { "name": "Eddystone EID Identity Key", "identifier": "com.google.characteristic.eddystone.key.eid_identity", "uuid": "A3C87509-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
     { "name": "Eddystone ADV Slot Data", "identifier": "com.google.characteristic.eddystone.adv_slot_data", "uuid": "A3C8750A-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
-    { "name": "Eddystone Avanced Factory Reset", "identifier": "com.google.characteristic.eddystone.advanced_factory_reset", "uuid": "A3C8750B-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
+    { "name": "Eddystone Advanced Factory Reset", "identifier": "com.google.characteristic.eddystone.advanced_factory_reset", "uuid": "A3C8750B-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
     { "name": "Eddystone (Advanced) Remain Connectable", "identifier": "com.google.characteristic.eddystone.remain_connectable", "uuid": "A3C8750C-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
 
     { "name": "Fast Pair Model ID", "identifier": "com.google.service.fast_pair.model_id", "uuid": "FE2C1233-8366-4814-8EB0-01DE32100BEA" , "source": "google"},
