@@ -486,6 +486,8 @@
     { "name": "UART RX Characteristic", "identifier": "com.nordicsemi.characteristic.uart_rx", "uuid": "6E400002-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
     { "name": "UART TX Characteristic", "identifier": "com.nordicsemi.characteristic.uart_tx", "uuid": "6E400003-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
 
+    { "name": "Status Characteristic", "identifier": "com.nordicsemi.characteristic.status", "uuid": "57A70001-9350-11ED-A1EB-0242AC120002" , "source": "nordic" },
+
     { "name": "Edge Impulse Remote Management RX Characteristic", "identifier": "com.nordicsemi.characteristic.edge_impulse.uart_rx", "uuid": "E2A00002-EC31-4EC3-A97A-1C34D87E9878" , "source": "nordic"},
     { "name": "Edge Impulse Remote Management TX Characteristic", "identifier": "com.nordicsemi.characteristic.edge_impulse.uart_tx", "uuid": "E2A00003-EC31-4EC3-A97A-1C34D87E9878" , "source": "nordic"},
 
