@@ -1,4 +1,4 @@
-name: Check Successive Company IDs
+name: Check Company IDs
 
 on: [push, pull_request]
 
@@ -20,4 +20,5 @@ jobs:
     - name: npm ids
       run: |
         npm install
+        npm run-script decimal_ids
         npm run-script ids
