@@ -3,7 +3,7 @@ name: Check Company IDs
 on: [push, pull_request]
 
 jobs:
-  successive_ids:
+  build:
     runs-on: ubuntu-latest
 
     strategy:

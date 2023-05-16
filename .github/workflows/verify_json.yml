@@ -3,8 +3,7 @@ name: Verify JSON Schemas
 on: [push, pull_request]
 
 jobs:
-  test_schemas:
-
+  build:
     runs-on: ubuntu-latest
 
     strategy:
