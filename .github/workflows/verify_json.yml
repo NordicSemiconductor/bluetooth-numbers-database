@@ -1,6 +1,10 @@
 name: Verify JSON Schemas
 
-on: [push, pull_request]
+on: 
+  workflow_run:
+    workflows: ["Check Company IDs"]
+    types: 
+      - completed
 
 jobs:
   build:

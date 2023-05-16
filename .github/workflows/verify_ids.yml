@@ -3,8 +3,7 @@ name: Check Company IDs
 on: [push, pull_request]
 
 jobs:
-  build:
-
+  fix_hex_ids:
     runs-on: ubuntu-latest
 
     strategy:
@@ -21,4 +20,22 @@ jobs:
       run: |
         npm install
         npm run-script fix-ids
+
+  successive_ids:
+    runs-on: ubuntu-latest
+    needs: fix_hex_ids
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm ids
+      run: |
+        npm install
         npm run-script ids
