@@ -1,13 +1,9 @@
 name: Verify JSON Schemas
 
-on: 
-  workflow_run:
-    workflows: ["Check Company IDs"]
-    types: 
-      - completed
+on: [push, pull_request]
 
 jobs:
-  build:
+  test_schemas:
 
     runs-on: ubuntu-latest
 

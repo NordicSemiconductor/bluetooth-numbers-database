@@ -1,10 +1,6 @@
 name: Check No Duplicates
 
-on: 
-  workflow_run:
-    workflows: ["Check Company IDs"]
-    types: 
-      - completed
+on: [push, pull_request]
 
 jobs:
   build:
