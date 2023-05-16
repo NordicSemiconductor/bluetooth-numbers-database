@@ -1,10 +1,9 @@
-name: Check Successive Company IDs
+name: Check Company IDs
 
 on: [push, pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:

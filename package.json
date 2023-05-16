@@ -1,11 +1,12 @@
 {
   "name": "bluetooth-numbers-database",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The Nordic Bluetooth UUID Database provides a simple mechanism through which you can keep an up-to-date listing of all the various Bluetooth Specification-related elements that are defined by our industry, such as Company IDs, Service UUIDs, Characteristic UUIDs and Descriptor UUIDs.",
   "main": "index.js",
   "scripts": {
     "test": "node validate",
     "verify": "node verify",
+    "fix-ids": "node decimal_ids",
     "ids": "node successive_company_ids"
   },
   "repository": {
