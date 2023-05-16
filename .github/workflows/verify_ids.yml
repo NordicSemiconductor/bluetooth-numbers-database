@@ -20,5 +20,5 @@ jobs:
     - name: npm ids
       run: |
         npm install
-        npm run-script decimal_ids
+        npm run-script fix-ids
         npm run-script ids
