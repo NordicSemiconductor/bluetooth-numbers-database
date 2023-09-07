@@ -3261,6 +3261,7 @@
     { "code": 3259, "name": "Emlid Tech Kft." },
     { "code": 3260, "name": "TROX GmbH" },
     { "code": 3261, "name": "Pricer AB" },
+    { "code": 3262, "name": "Missing Company ID from Bluetooth SIG Assigned Numbers" },
     { "code": 3263, "name": "Forward Thinking Systems LLC." },
     { "code": 3264, "name": "Garnet Instruments Ltd." },
     { "code": 3265, "name": "CLEIO Inc." },
