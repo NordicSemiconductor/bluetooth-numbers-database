@@ -48,6 +48,32 @@ We have based the data structure above on the official listing of GATT Specifica
 This structure is a mirror of the official Bluetooth Specification. It is added as a convenience so that each application does not need to download and transfrom the online listings at the Bluetooth official website. Note that registration of new Company Identifiers must go through official channels at Bluetooth SIG.
 The full JSON Schema for the Company ID Data Structure can be found [here](https://github.com/NordicSemiconductor/bluetooth-numbers-database/blob/master/v1/company_schema.json).
 
+### GATT Appearance(s)
+
+GATT Appearence is defined in the Bluetooth SIG Specification, as both a Common Data Type 0x19 (see [Bluetooth Core Specification Supplement](https://www.bluetooth.com/specifications/specs/core-specification-supplement-9/)) and as a Characteristic which makes use of said data type. Bluetooth Appearance Data has a length of 2 bytes, set as follows:
+
+| Bits | Type | Description | Required |
+| -----|------|----------| --- |
+| 15-6 | `Integer` | Category | **Yes** |
+| 5-0 | `Integer` | Sub-Category | **Yes** |
+
+Appearance is a new addition to this database prompted by user [eriklins](https://github.com/eriklins), as a solution to his own issue ticket in this project. The result of which was [this initial Pull Request](https://github.com/NordicSemiconductor/bluetooth-numbers-database/pull/107). As of now it's not perfect, but it is a good starting point. The definition presented here is intended to mirror the Bluetooth SIG Assigned Numbers Document as defined and updated [here](https://www.bluetooth.com/wp-content/uploads/Files/Specification/Assigned_Numbers.pdf).
+
+#### Category Schema
+
+| Field | Type | Description | Required |
+| ------|------|----------| --- |
+| category | `Int` | Decimal value identifying the Category, corresponding to reversed bits 15 to 6 of Appearance Data | **Yes** |
+| name | `String` | Name of the Category | **Yes** |
+| subcategory | `[Sub-Category]` | Array of Sub-Categories within an Appearance Category | **No** |
+
+#### Sub-Category Schema
+
+| Field | Type | Description | Required |
+| ------|------|----------| --- |
+| value | `Int` | Decimal value identifying the sub-category within a parent category, corresponding to the reversed bits 5 to 0 from Appearance Data | **Yes** |
+| name | `String` | Name of the Sub-Category | **Yes** |
+
 ## Rules and Contributions
 
 * The purpose of this project is to be an online shared directory of Bluetooth numbers, so all listings (Company IDs, Services, etc.) **can and are meant to** be extended by the community, as long as they're Bluetooth SIG-Compliant. (More on this below.)
