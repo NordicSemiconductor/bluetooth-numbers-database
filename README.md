@@ -48,9 +48,9 @@ We have based the data structure above on the official listing of GATT Specifica
 This structure is a mirror of the official Bluetooth Specification. It is added as a convenience so that each application does not need to download and transfrom the online listings at the Bluetooth official website. Note that registration of new Company Identifiers must go through official channels at Bluetooth SIG.
 The full JSON Schema for the Company ID Data Structure can be found [here](https://github.com/NordicSemiconductor/bluetooth-numbers-database/blob/master/v1/company_schema.json).
 
-### GATT Appearance(s)
+### GAP Appearance(s)
 
-GATT Appearence is defined in the Bluetooth SIG Specification, as both a Common Data Type 0x19 (see [Bluetooth Core Specification Supplement](https://www.bluetooth.com/specifications/specs/core-specification-supplement-9/)) and as a Characteristic which makes use of said data type. Bluetooth Appearance Data has a length of 2 bytes, set as follows:
+GAP/GATT Appearence is defined in the Bluetooth SIG Specification, as both a Common Data Type 0x19 (see [Bluetooth Core Specification Supplement](https://www.bluetooth.com/specifications/specs/core-specification-supplement-9/)) and as a Characteristic which makes use of said data type. Bluetooth Appearance Data has a length of 2 bytes, set as follows:
 
 | Bits | Type | Description | Required |
 | -----|------|----------| --- |
