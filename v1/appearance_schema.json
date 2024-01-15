@@ -1,0 +1,27 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "category": {
+        "type": "string",
+		"pattern": "^[0-9A-Fa-f]+$"
+      },
+      "name": {
+        "type": "string"
+      },
+      "subcategory": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "value": { "type": "string" },
+            "name": { "type": "string" }
+          },
+          "required": ["value", "name"]
+        }
+      }
+    },
+    "required": ["category", "name"]
+  }
+}
