@@ -22,6 +22,14 @@ const noDuplicates = Object.keys(db)
       let companyCodes = db[list].map(company => company.code);
       numberOfItems = companyCodes.length;
       numberOfUniques = (new Set(companyCodes)).size;
+  	} else if (list == 'appearances') {
+		let appearances = db[list].map(appearance => appearance.category);
+		numberOfItems = appearances.length;
+		numberOfUniques = (new Set(appearances)).size;
+		if (numberOfItems != numberOfUniques) {
+			console.error(`Failed to verify '${list}'. Found '${numberOfItems - numberOfUniques}' duplicate items.`);
+			return false;
+        }
     } else {
       // GATT Attributes
       let uuids = db[list].map(gatt => gatt.uuid);

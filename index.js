@@ -21,9 +21,11 @@ const companies = require(pathForJson('company_ids'));
 const services = require(pathForJson('service_uuids'));
 const characteristics = require(pathForJson('characteristic_uuids'));
 const descriptors = require(pathForJson('descriptor_uuids'));
+const appearances = require(pathForJson('gap_appearance'));
 
 const companySchema = require(pathForJson('company_schema'));
 const attributeSchema = require(pathForJson('attribute_schema'));
+const appearanceSchema = require(pathForJson('appearance_schema'));
 
 module.exports = {
     version,
@@ -31,10 +33,12 @@ module.exports = {
     services,
     characteristics,
     descriptors,
+    appearances,
     schemas: {
         companies: companySchema,
         services: attributeSchema,
         characteristics: attributeSchema,
         descriptors: attributeSchema,
+        appearances: appearanceSchema
     }
 };
