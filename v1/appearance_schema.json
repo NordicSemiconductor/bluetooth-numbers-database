@@ -4,8 +4,7 @@
     "type": "object",
     "properties": {
       "category": {
-        "type": "string",
-		"pattern": "^[0-9A-Fa-f]+$"
+        "type": "integer"
       },
       "name": {
         "type": "string"
@@ -15,7 +14,7 @@
         "items": {
           "type": "object",
           "properties": {
-            "value": { "type": "string" },
+            "value": { "type": "integer" },
             "name": { "type": "string" }
           },
           "required": ["value", "name"]

@@ -15,6 +15,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 const version = require('./package.json').version;
 const pathForJson = filename => `${__dirname}/v${version.split('.')[0]}/${filename}.json`;
 
+// Task 1: Fix Company IDs
+
 const companyIdsFile = pathForJson('company_ids')
 console.debug(companyIdsFile)
 
@@ -69,3 +71,35 @@ readlineInterface.on('close', () => {
     });
     console.log(`Hex Company IDs Fix-up completed. ${modificationsCount} IDs modified.`);
 });
+
+// Task 2: Fix Appearances values / categories
+
+const appearancesFile = pathForJson('gap_appearance')
+const rawData = fs.readFileSync(appearancesFile);
+let jsonData = JSON.parse(rawData);
+
+// Helper function to convert hex to decimal for the subcategories
+function convertHexToDecimal(subcategories) {
+    subcategories.forEach(subcategory => {
+        if (subcategory.hasOwnProperty('value')) {
+            subcategory.value = parseInt(subcategory.value, 16);
+        }
+    });
+}
+
+// Iterate through the main categories
+jsonData.forEach(category => {
+    // Convert hex to decimal for the main category
+    if (category.hasOwnProperty('category')) {
+        category.category = parseInt(category.category, 16);
+    }
+
+    // Check if subcategories exist and convert hex to decimal for them
+    if (category.hasOwnProperty('subcategory')) {
+        convertHexToDecimal(category.subcategory);
+    }
+});
+
+// Write the updated data back to the file
+const updatedData = JSON.stringify(jsonData, null, 2);
+fs.writeFileSync(appearancesFile, updatedData);
