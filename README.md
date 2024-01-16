@@ -63,7 +63,7 @@ Appearance is a new addition to this database prompted by user [eriklins](https:
 
 | Field | Type | Description | Required |
 | ------|------|----------| --- |
-| category | `Int` | Decimal value identifying the Category, corresponding to reversed bits 15 to 6 of Appearance Data | **Yes** |
+| category | `Integer` | Decimal value identifying the Category, corresponding to reversed bits 15 to 6 of Appearance Data | **Yes** |
 | name | `String` | Name of the Category | **Yes** |
 | subcategory | `[Sub-Category]` | Array of Sub-Categories within an Appearance Category | **No** |
 
@@ -71,7 +71,7 @@ Appearance is a new addition to this database prompted by user [eriklins](https:
 
 | Field | Type | Description | Required |
 | ------|------|----------| --- |
-| value | `Int` | Decimal value identifying the sub-category within a parent category, corresponding to the reversed bits 5 to 0 from Appearance Data | **Yes** |
+| value | `Integer` | Decimal value identifying the sub-category within a parent category, corresponding to the reversed bits 5 to 0 from Appearance Data | **Yes** |
 | name | `String` | Name of the Sub-Category | **Yes** |
 
 ## Rules and Contributions
