@@ -1,0 +1,549 @@
+{
+  "manufacturer": [
+    {
+      "company": "Motorola",
+      "country": " UK",
+      "identifier": "01"
+    },
+    {
+      "company": "STMicroelectronics SA",
+      "country": " France",
+      "identifier": "02"
+    },
+    {
+      "company": "Hitachi Ltd",
+      "country": " Japan",
+      "identifier": "03"
+    },
+    {
+      "company": "NXP Semiconductors",
+      "country": " Germany",
+      "identifier": "04"
+    },
+    {
+      "company": "Infineon Technologies AG",
+      "country": " Germany",
+      "identifier": "05"
+    },
+    {
+      "company": "Cylink",
+      "country": " USA",
+      "identifier": "06"
+    },
+    {
+      "company": "Texas Instrument",
+      "country": " France",
+      "identifier": "07"
+    },
+    {
+      "company": "Fujitsu Limited",
+      "country": " Japan",
+      "identifier": "08"
+    },
+    {
+      "company": "Matsushita Electronics Corporation Semiconductor Company",
+      "country": " Japan",
+      "identifier": "09"
+    },
+    {
+      "company": "NEC",
+      "country": " Japan",
+      "identifier": "0A"
+    },
+    {
+      "company": "Oki Electric Industry Co. Ltd",
+      "country": " Japan",
+      "identifier": "0B"
+    },
+    {
+      "company": "Toshiba Corp.",
+      "country": " Japan",
+      "identifier": "0C"
+    },
+    {
+      "company": "Mitsubishi Electric Corp.",
+      "country": " Japan",
+      "identifier": "0D"
+    },
+    {
+      "company": "Samsung Electronics Co. Ltd",
+      "country": " Korea",
+      "identifier": "0E"
+    },
+    {
+      "company": "Hynix",
+      "country": " Korea",
+      "identifier": "0F"
+    },
+    {
+      "company": "LG-Semiconductors Co. Ltd",
+      "country": " Korea",
+      "identifier": "10"
+    },
+    {
+      "company": "Emosyn-EM Microelectronics",
+      "country": " USA",
+      "identifier": "11"
+    },
+    {
+      "company": "INSIDE Technology",
+      "country": " France",
+      "identifier": "12"
+    },
+    {
+      "company": "ORGA Kartensysteme GmbH",
+      "country": " Germany",
+      "identifier": "13"
+    },
+    {
+      "company": "SHARP Corporation",
+      "country": " Japan",
+      "identifier": "14"
+    },
+    {
+      "company": "ATMEL",
+      "country": " France",
+      "identifier": "15"
+    },
+    {
+      "company": "EM Microelectronic-Marin SA",
+      "country": " Switzerland",
+      "identifier": "16"
+    },
+    {
+      "company": "SMARTRAC TECHNOLOGY GmbH",
+      "country": " Germany",
+      "identifier": "17"
+    },
+    {
+      "company": "ZMD AG",
+      "country": " Germany",
+      "identifier": "18"
+    },
+    {
+      "company": "XICOR Inc.",
+      "country": " USA",
+      "identifier": "19"
+    },
+    {
+      "company": "Sony Corporation",
+      "country": " Japan",
+      "identifier": "1A"
+    },
+    {
+      "company": "Malaysia Microelectronic Solutions Sdn. Bhd",
+      "country": " Malaysia",
+      "identifier": "1B"
+    },
+    {
+      "company": "Emosyn",
+      "country": " USA",
+      "identifier": "1C"
+    },
+    {
+      "company": "Shanghai Fudan Microelectronics Co. Ltd.",
+      "country": " P.R. China",
+      "identifier": "1D"
+    },
+    {
+      "company": "Magellan Technology Pty Limited",
+      "country": " Australia",
+      "identifier": "1E"
+    },
+    {
+      "company": "Melexis NV BO",
+      "country": " Switzerland",
+      "identifier": "1F"
+    },
+    {
+      "company": "Renesas Technology Corp.",
+      "country": " Japan",
+      "identifier": "20"
+    },
+    {
+      "company": "TAGSYS",
+      "country": " France",
+      "identifier": "21"
+    },
+    {
+      "company": "Transcore",
+      "country": " USA",
+      "identifier": "22"
+    },
+    {
+      "company": "Shanghai belling corp. ltd.",
+      "country": " China",
+      "identifier": "23"
+    },
+    {
+      "company": "Masktech Germany Gmbh",
+      "country": " Germany",
+      "identifier": "24"
+    },
+    {
+      "company": "Innovision Research and Technology Plc",
+      "country": " UK",
+      "identifier": "25"
+    },
+    {
+      "company": "Hitachi ULSI Systems Co. Ltd.",
+      "country": " Japan",
+      "identifier": "26"
+    },
+    {
+      "company": "Yubico AB",
+      "country": " Sweden",
+      "identifier": "27"
+    },
+    {
+      "company": "Ricoh",
+      "country": " Japan",
+      "identifier": "28"
+    },
+    {
+      "company": "ASK",
+      "country": " France",
+      "identifier": "29"
+    },
+    {
+      "company": "Unicore Microsystems LLC",
+      "country": " Russian Federation",
+      "identifier": "2A"
+    },
+    {
+      "company": "Dallas Semiconductor/Maxim",
+      "country": " USA",
+      "identifier": "2B"
+    },
+    {
+      "company": "Impinj Inc.",
+      "country": " USA",
+      "identifier": "2C"
+    },
+    {
+      "company": "RightPlug Alliance",
+      "country": " USA",
+      "identifier": "2D"
+    },
+    {
+      "company": "Broadcom Corporation",
+      "country": " USA",
+      "identifier": "2E"
+    },
+    {
+      "company": "MStar Semiconductor Inc Taiwan",
+      "country": " ROC",
+      "identifier": "2F"
+    },
+    {
+      "company": "BeeDar Technology Inc.",
+      "country": " USA",
+      "identifier": "30"
+    },
+    {
+      "company": "RFIDsec",
+      "country": " Denmark",
+      "identifier": "31"
+    },
+    {
+      "company": "Schweizer Electronic AG",
+      "country": " Germany",
+      "identifier": "32"
+    },
+    {
+      "company": "AMIC Technology Corp",
+      "country": " Taiwan",
+      "identifier": "33"
+    },
+    {
+      "company": "Mikron JSC",
+      "country": " Russia",
+      "identifier": "34"
+    },
+    {
+      "company": "Fraunhofer Institute for Photonic Microsystems",
+      "country": " Germany",
+      "identifier": "35"
+    },
+    {
+      "company": "IDS Microchip AG",
+      "country": " Switzerland",
+      "identifier": "36"
+    },
+    {
+      "company": "Kovio",
+      "country": " USA",
+      "identifier": "37"
+    },
+    {
+      "company": "HMT Microelectronic Ltd",
+      "country": " Switzerland",
+      "identifier": "38"
+    },
+    {
+      "company": "Silicon Craft Technology",
+      "country": " Thailand",
+      "identifier": "39"
+    },
+    {
+      "company": "Advanced Film Device Inc.",
+      "country": " Japan",
+      "identifier": "3A"
+    },
+    {
+      "company": "Nitecrest Ltd",
+      "country": " UK",
+      "identifier": "3B"
+    },
+    {
+      "company": "Verayo Inc.",
+      "country": " USA",
+      "identifier": "3C"
+    },
+    {
+      "company": "HID Global",
+      "country": " USA",
+      "identifier": "3D"
+    },
+    {
+      "company": "Productivity Engineering Gmbh",
+      "country": " Germany",
+      "identifier": "3E"
+    },
+    {
+      "company": "Austriamicrosystems AG (reserved)",
+      "country": " Austria",
+      "identifier": "3F"
+    },
+    {
+      "company": "Gemalto SA",
+      "country": " France",
+      "identifier": "40"
+    },
+    {
+      "company": "Renesas Electronics Corporation",
+      "country": " Japan",
+      "identifier": "41"
+    },
+    {
+      "company": "3Alogics Inc",
+      "country": " Korea",
+      "identifier": "42"
+    },
+    {
+      "company": "Top TroniQ Asia Limited",
+      "country": " Hong Kong",
+      "identifier": "43"
+    },
+    {
+      "company": "Gentag Inc (USA)",
+      "country": " USA",
+      "identifier": "44"
+    },
+    {
+      "company": "Invengo Information Technology Co.Ltd",
+      "country": " China",
+      "identifier": "45"
+    },
+    {
+      "company": "Guangzhou Sysur Microelectronics Inc",
+      "country": " China",
+      "identifier": "46"
+    },
+    {
+      "company": "CEITEC S.A.",
+      "country": " Brazil",
+      "identifier": "47"
+    },
+    {
+      "company": "Shanghai Quanray Electronics Co. Ltd.",
+      "country": " China",
+      "identifier": "48"
+    },
+    {
+      "company": "MediaTek Inc",
+      "country": " Taiwan",
+      "identifier": "49"
+    },
+    {
+      "company": "Angstrem PJSC",
+      "country": " Russia",
+      "identifier": "4A"
+    },
+    {
+      "company": "Celisic Semiconductor (Hong Kong) Limited",
+      "country": " China",
+      "identifier": "4B"
+    },
+    {
+      "company": "LEGIC Identsystems AG",
+      "country": " Switzerland",
+      "identifier": "4C"
+    },
+    {
+      "company": "Balluff GmbH",
+      "country": " Germany",
+      "identifier": "4D"
+    },
+    {
+      "company": "Oberthur Technologies",
+      "country": " France",
+      "identifier": "4E"
+    },
+    {
+      "company": "Silterra Malaysia Sdn. Bhd.",
+      "country": " Malaysia",
+      "identifier": "4F"
+    },
+    {
+      "company": "DELTA Danish Electronics,Light & Acoustics",
+      "country": " Denmark",
+      "identifier": "50"
+    },
+    {
+      "company": "Giesecke & Devrient GmbH",
+      "country": " Germany",
+      "identifier": "51"
+    },
+    {
+      "company": "Shenzhen China Vision Microelectronics Co. Ltd.",
+      "country": " China",
+      "identifier": "52"
+    },
+    {
+      "company": "Shanghai Feiju Microelectronics Co. Ltd.",
+      "country": " China",
+      "identifier": "53"
+    },
+    {
+      "company": "Intel Corporation",
+      "country": " USA",
+      "identifier": "54"
+    },
+    {
+      "company": "Microsensys GmbH",
+      "country": " Germany",
+      "identifier": "55"
+    },
+    {
+      "company": "Sonix Technology Co. Ltd.",
+      "country": " Taiwan",
+      "identifier": "56"
+    },
+    {
+      "company": "Qualcomm Technologies Inc",
+      "country": " USA",
+      "identifier": "57"
+    },
+    {
+      "company": "Realtek Semiconductor Corp",
+      "country": " Taiwan",
+      "identifier": "58"
+    },
+    {
+      "company": "Freevision Technologies Co. Ltd",
+      "country": " China",
+      "identifier": "59"
+    },
+    {
+      "company": "Giantec Semiconductor Inc.",
+      "country": " China",
+      "identifier": "5A"
+    },
+    {
+      "company": "JSC Angstrem-T",
+      "country": " Russia",
+      "identifier": "5B"
+    },
+    {
+      "company": "STARCHIP",
+      "country": " France",
+      "identifier": "5C"
+    },
+    {
+      "company": "SPIRTECH",
+      "country": " France",
+      "identifier": "5D"
+    },
+    {
+      "company": "GANTNER Electronic GmbH",
+      "country": " Austria",
+      "identifier": "5E"
+    },
+    {
+      "company": "Nordic Semiconductor",
+      "country": " Norway",
+      "identifier": "5F"
+    },
+    {
+      "company": "Verisiti Inc",
+      "country": " USA",
+      "identifier": "60"
+    },
+    {
+      "company": "Wearlinks Technology Inc.",
+      "country": " China",
+      "identifier": "61"
+    },
+    {
+      "company": "Userstar Information Systems Co. Ltd",
+      "country": " Taiwan",
+      "identifier": "62"
+    },
+    {
+      "company": "Pragmatic Printing Ltd.",
+      "country": " UK",
+      "identifier": "63"
+    },
+    {
+      "company": "Associação do Laboratório de Sistemas Integráveis Tecnológico– LSI-TEC",
+      "country": " Brazil",
+      "identifier": "64"
+    },
+    {
+      "company": "Tendyron Corporation",
+      "country": " China",
+      "identifier": "65"
+    },
+    {
+      "company": "MUTO Smart Co. Ltd.",
+      "country": " Korea",
+      "identifier": "66"
+    },
+    {
+      "company": "ON Semiconductor",
+      "country": " USA",
+      "identifier": "67"
+    },
+    {
+      "company": "TÜBİTAK BİLGEM",
+      "country": " Turkey",
+      "identifier": "68"
+    },
+    {
+      "company": "Huada Semiconductor Co. Ltd",
+      "country": " China",
+      "identifier": "69"
+    },
+    {
+      "company": "SEVENEY",
+      "country": " France",
+      "identifier": "6A"
+    },
+    {
+      "company": "ISSM",
+      "country": " France",
+      "identifier": "6B"
+    },
+    {
+      "company": "Wisesec Ltd",
+      "country": " Israel",
+      "identifier": "6C"
+    },
+    {
+      "company": "Holtek",
+      "country": " Taiwan",
+      "identifier": "7E"
+    }
+  ]
+}

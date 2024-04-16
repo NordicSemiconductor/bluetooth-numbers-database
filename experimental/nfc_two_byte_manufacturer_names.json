@@ -1,0 +1,104 @@
+{
+  "manufacturer": [
+    {
+      "Identifier": "00",
+      "Company": "Shenzhen Goodix Technology Co., Ltd.",
+      "Country": "China"
+    },
+    {
+      "Identifier": "01",
+      "Company": "Panthronics AG",
+      "Country": "Austria"
+    },
+    {
+      "Identifier": "02",
+      "Company": "Beijing Huada Infosec Technology Co., Ltd,",
+      "Country": "China"
+    },
+    {
+      "Identifier": "03",
+      "Company": "Shanghai Oriental Magnetic Card Engineering Co Ltd",
+      "Country": "China"
+    },
+    {
+      "Identifier": "04",
+      "Company": "8ApeX Inc",
+      "Country": "US"
+    },
+    {
+      "Identifier": "05",
+      "Company": "Abbott",
+      "Country": "Ireland"
+    },
+    {
+      "Identifier": "06",
+      "Company": "Proqure Inc",
+      "Country": "US"
+    },
+    {
+      "Identifier": "07",
+      "Company": "Schreiner Group GmbH & Co. KG",
+      "Country": "Germany"
+    },
+    {
+      "Identifier": "08",
+      "Company": "Beijing SmartChip Microelectronics Technology Company Limited",
+      "Country": "China"
+    },
+    {
+      "Identifier": "09",
+      "Company": "Datang Microelectronics Technology Co., Ltd.",
+      "Country": "China"
+    },
+    {
+      "Identifier": "0A",
+      "Company": "Wise Security Technology (Guangzhou) Co., Ltd",
+      "Country": "China"
+    },
+    {
+      "Identifier": "0B",
+      "Company": "CEC Huada Electronic Design Co., Ltd.",
+      "Country": "China"
+    },
+    {
+      "Identifier": "0C",
+      "Company": "Shanghai Techsun RFID Technology Co., Ltd",
+      "Country": "China"
+    },
+    {
+      "Identifier": "0D",
+      "Company": "North China Institute of Computing Technology",
+      "Country": "China"
+    },
+    {
+      "Identifier": "0E",
+      "Company": "Shanghai Huahong Integrated Circuit Co., Ltd.",
+      "Country": "China"
+    },
+    {
+      "Identifier": "0F",
+      "Company": "Shanghai MintSilicon Microelectronics Inc., Ltd.",
+      "Country": "China"
+    },
+    {
+      "Identifier": "10",
+      "Company": "Xinsheng Technology Co., Ltd",
+      "Country": "China"
+    },
+    {
+      "Identifier": "11",
+      "Company": "IDEX Biometrics ASA",
+      "Country": "Norway"
+    },
+    {
+      "Identifier": "12",
+      "Company": "Novo Nordisk A/S",
+      "Country": "Denmark"
+    },
+    {
+      "Identifier": "13",
+      "Company": "Shandong Huayi Micro-Electronics Technology Co., Ltd.",
+      "Country": "China"
+    }
+  ]
+}
