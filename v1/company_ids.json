@@ -1047,6 +1047,7 @@
     { "code": 1045, "name": "Uber Technologies Inc" },
     { "code": 1046, "name": "SODA GmbH" },
     { "code": 1047, "name": "Fatigue Science" },
+    { "code": 1048, "name": "Reserved" },
     { "code": 1049, "name": "Novalogy LTD" },
     { "code": 1050, "name": "Friday Labs Limited" },
     { "code": 1051, "name": "OrthoAccel Technologies" },
@@ -2369,6 +2370,7 @@
     { "code": 2368, "name": "Hero Workout GmbH" },
     { "code": 2369, "name": "Rivian Automotive, LLC" },
     { "code": 2370, "name": "TRANSSION HOLDINGS LIMITED" },
+    { "code": 2371, "name": "Reserved" },
     { "code": 2372, "name": "Agitron d.o.o." },
     { "code": 2373, "name": "Globe (Jiangsu) Co., Ltd" },
     { "code": 2374, "name": "AMC International Alfa Metalcraft Corporation AG" },
@@ -3259,6 +3261,7 @@
     { "code": 3259, "name": "Emlid Tech Kft." },
     { "code": 3260, "name": "TROX GmbH" },
     { "code": 3261, "name": "Pricer AB" },
+    { "code": 3262, "name": "Reserved" },
     { "code": 3263, "name": "Forward Thinking Systems LLC." },
     { "code": 3264, "name": "Garnet Instruments Ltd." },
     { "code": 3265, "name": "CLEIO Inc." },
@@ -3580,5 +3583,6 @@
     { "code": 3581, "name": "BH Technologies" },
     { "code": 3582, "name": "Haptech, Inc." },
     { "code": 3583, "name": "WaveRF, Corp." },
-    { "code": 3584, "name": "SHENZHEN SOUNDSOUL INFORMATION TECHNOLOGY CO.,LTD" }
+    { "code": 3584, "name": "SHENZHEN SOUNDSOUL INFORMATION TECHNOLOGY CO.,LTD" },
+    { "code": 65535, "name": "Bluetooth SIG Specification Reserved Default Vendor ID for Remote Devices Without Device ID Service Record." }
 ]
