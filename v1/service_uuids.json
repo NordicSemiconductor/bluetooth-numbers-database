@@ -60,7 +60,11 @@
     { "name": "Broadcast Audio Announcement", "identifier": "org.bluetooth.service.audio.broadcast_announcement", "uuid": "1852", "source": "gss" },
     { "name": "Common Audio", "identifier": "org.bluetooth.service.audio.common", "uuid": "1853", "source": "gss" },
     { "name": "Hearing Access", "identifier": "org.bluetooth.service.hearing_access", "uuid": "1854", "source": "gss" },
-    { "name": "TMAS", "identifier": "org.bluetooth.service.tmas", "uuid": "1855", "source": "gss" },
+    { "name": "Telephony and Media Audio", "identifier": "org.bluetooth.service.telephony_and_media_audio", "uuid": "1855", "source": "gss" },
+    { "name": "Public Broadcast Announcement", "identifier": "org.bluetooth.service.public_broadcast_announcement", "uuid": "1856", "source": "gss" },
+    { "name": "Electronic Shelf Label", "identifier": "org.bluetooth.service.electronic_shelf_label", "uuid": "1857", "source": "gss" },
+    { "name": "Gaming Audio", "identifier": "org.bluetooth.service.gaming_audio", "uuid": "1858", "source": "gss" },
+    { "name": "Mesh Proxy Solicitation", "identifier": "org.bluetooth.service.mesh_proxy_solicitation", "uuid": "1859", "source": "gss" },
 
     { "name": "Signify Netherlands B.V. (formerly Philips Lighting) Service", "identifier": "com.philips-hue.service.signify_netherlands", "uuid": "FE0F" , "source": "philips-hue"},
 
