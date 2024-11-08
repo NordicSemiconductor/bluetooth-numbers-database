@@ -524,6 +524,14 @@
     { "name": "Thingy Speaker Status", "identifier": "com.nordicsemi.characteristic.thingy.speaker_status", "uuid": "EF680503-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
     { "name": "Thingy Microphone", "identifier": "com.nordicsemi.characteristic.thingy.microphone", "uuid": "EF680504-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
 
+    { "name": "Temperature Reading Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.temperature", "uuid": "506A55C4-B5E7-46FA-8326-8ACAEB1189EB", "source": "nordic"},
+    { "name": "Pressure Reading Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.pressure", "uuid": "51838AFF-2D9A-B32A-B32A-8187E41664BA", "source": "nordic"},
+    { "name": "Humidity Reading Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.humidity", "uuid": "753E3050-DF06-4B53-B090-5E1D810C4383", "source": "nordic"},
+    { "name": "Red Color Reading Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.red", "uuid": "82754BBB-6ED3-4D69-A0E1-F19F6B654EC2", "source": "nordic"},
+    { "name": "Green Color Reading Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.green", "uuid": "DB7F9F36-92CE-4509-A2EF-AF72BA38FB48", "source": "nordic"},
+    { "name": "Blue Color Reading Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.blue", "uuid": "F5D2EAB5-41E8-4F7C-AEF7-C9FFF4C544C0", "source": "nordic"},
+    { "name": "Battery Reading Characteristic", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.battery", "uuid": "FA3CF070-D0C7-4668-96C4-86125C8AC5DF", "source": "nordic"},
+
     { "name": "UART RX Characteristic", "identifier": "com.nordicsemi.characteristic.uart_rx", "uuid": "6E400002-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
     { "name": "UART TX Characteristic", "identifier": "com.nordicsemi.characteristic.uart_tx", "uuid": "6E400003-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
 
