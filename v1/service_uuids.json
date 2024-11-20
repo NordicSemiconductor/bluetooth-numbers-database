@@ -88,12 +88,12 @@
     { "name": "micro:bit DFU Control Service", "identifier": "org.microbit.service.dfu_control", "uuid": "E95D93B0-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
     { "name": "micro:bit Temperature Service", "identifier": "org.microbit.service.temperature", "uuid": "E95D6100-251D-470A-A062-FA1922DFA9A8" , "source": "microbit"},
 
-    { "name": "Thingy Configuration Service", "identifier": "com.nordicsemi.service.thingy_configuration", "uuid": "EF680100-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Thingy Weather Station Service", "identifier": "com.nordicsemi.service.thingy_weather_station", "uuid": "EF680200-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Thingy UI Service", "identifier": "com.nordicsemi.service.thingy_ui", "uuid": "EF680300-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Thingy Motion Service", "identifier": "com.nordicsemi.service.thingy_motion", "uuid": "EF680400-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Thingy Sound Service", "identifier": "com.nordicsemi.service.thingy_sound", "uuid": "EF680500-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
-    { "name": "Thingy:53 Demo Service", "identifier": "com.nordicsemi.service.thingy_53_demo", "uuid": "A5B46352-9D13-479F-9FCB-3DCDF0A13F4D" , "source": "nordic"},
+    { "name": "Thingy Configuration Service", "identifier": "com.nordicsemi.service.thingy.configuration", "uuid": "EF680100-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Thingy Weather Station Service", "identifier": "com.nordicsemi.service.thingy.weather_station", "uuid": "EF680200-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Thingy UI Service", "identifier": "com.nordicsemi.service.thingy.ui", "uuid": "EF680300-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Thingy Motion Service", "identifier": "com.nordicsemi.service.thingy.motion", "uuid": "EF680400-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Thingy Sound Service", "identifier": "com.nordicsemi.service.thingy.sound", "uuid": "EF680500-9B35-4933-9B10-52FFA9740042" , "source": "nordic"},
+    { "name": "Nordic Sensor Hub Service", "identifier": "com.nordicsemi.service.thingy.sensorhub", "uuid": "A5B46352-9D13-479F-9FCB-3DCDF0A13F4D" , "source": "nordic"},
 
     { "name": "Nordic LED and Button Service", "identifier": "com.nordicsemi.service.led_and_button", "uuid": "00001523-1212-EFDE-1523-785FEABCD123" , "source": "nordic"},
     { "name": "Nordic UART Service", "identifier": "com.nordicsemi.service.uart", "uuid": "6E400001-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
