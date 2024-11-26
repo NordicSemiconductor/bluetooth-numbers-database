@@ -532,6 +532,10 @@
     { "name": "Sensor Hub Blue Color", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.blue", "uuid": "F5D2EAB5-41E8-4F7C-AEF7-C9FFF4C544C0", "source": "nordic"},
     { "name": "Sensor Hub Battery", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.battery", "uuid": "FA3CF070-D0C7-4668-96C4-86125C8AC5DF", "source": "nordic"},
 
+    { "name": "Wi-Fi Provisioning Service Version", "identifier": "com.nordicsemi.characteristic.wifi.provisioning.service_version", "uuid": "14387801-130C-49E7-B877-2881C89CB258", "source": "nordic"},
+    { "name": "Wi-Fi Provisioning Control Point", "identifier": "com.nordicsemi.characteristic.wifi.provisioning.control_point", "uuid": "14387802-130C-49E7-B877-2881C89CB258", "source": "nordic"},
+    { "name": "Wi-Fi Provisioning Data Out", "identifier": "com.nordicsemi.characteristic.wifi.provisioning.data_out", "uuid": "14387803-130C-49E7-B877-2881C89CB258", "source": "nordic"},
+
     { "name": "UART RX Characteristic", "identifier": "com.nordicsemi.characteristic.uart_rx", "uuid": "6E400002-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
     { "name": "UART TX Characteristic", "identifier": "com.nordicsemi.characteristic.uart_tx", "uuid": "6E400003-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
 
