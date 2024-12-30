@@ -32,6 +32,7 @@
     { "name": "Boot Keyboard Input Report", "identifier": "org.bluetooth.characteristic.boot_keyboard_input_report", "uuid": "2A22" , "source": "gss" },
     { "name": "Boot Keyboard Output Report","identifier": "org.bluetooth.characteristic.boot_keyboard_output_report", "uuid": "2A32" , "source": "gss" },
     { "name": "Boot Mouse Input Report", "identifier": "org.bluetooth.characteristic.boot_mouse_input_report", "uuid": "2A33" , "source": "gss" },
+    { "name": "Carbon Dioxide Concentration", "identifier": "org.bluetooth.characteristic.concentration.co2", "uuid": "2B8C", "source": "gss" },
     { "name": "Central Address Resolution", "identifier": "org.bluetooth.characteristic.gap.central_address_resolution", "uuid": "2AA6" , "source": "gss" },
     { "name": "CGM Feature", "identifier": "org.bluetooth.characteristic.cgm_feature", "uuid": "2AA8" , "source": "gss" },
     { "name": "CGM Measurement","identifier": "org.bluetooth.characteristic.cgm_measurement", "uuid": "2AA7" , "source": "gss" },
