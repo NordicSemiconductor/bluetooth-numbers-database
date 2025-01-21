@@ -532,6 +532,7 @@
     { "name": "Sensor Hub Green Color", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.green", "uuid": "DB7F9F36-92CE-4509-A2EF-AF72BA38FB48", "source": "nordic"},
     { "name": "Sensor Hub Blue Color", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.blue", "uuid": "F5D2EAB5-41E8-4F7C-AEF7-C9FFF4C544C0", "source": "nordic"},
     { "name": "Sensor Hub Battery", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.battery", "uuid": "FA3CF070-D0C7-4668-96C4-86125C8AC5DF", "source": "nordic"},
+    { "name": "Sensor Hub IAQ", "identifier": "com.nordicsemi.characteristic.thingy.sensorhub.iaq", "uuid": "AD79CBCE-65DF-4BC6-BDD4-8CE2B6B75C59", "source": "nordic"},
 
     { "name": "Wi-Fi Provisioning Service Version", "identifier": "com.nordicsemi.characteristic.wifi.provisioning.service_version", "uuid": "14387801-130C-49E7-B877-2881C89CB258", "source": "nordic"},
     { "name": "Wi-Fi Provisioning Control Point", "identifier": "com.nordicsemi.characteristic.wifi.provisioning.control_point", "uuid": "14387802-130C-49E7-B877-2881C89CB258", "source": "nordic"},
