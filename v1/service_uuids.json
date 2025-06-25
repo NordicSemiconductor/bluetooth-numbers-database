@@ -100,6 +100,7 @@
     { "name": "Nordic Status Message Service", "identifier": "com.nordicsemi.service.status", "uuid": "57A70000-9350-11ED-A1EB-0242AC120002" , "source": "nordic" },
     { "name": "Nordic Wi-Fi Provisioning Service", "identifier": "com.nordicsemi.service.wifi.provisioning", "uuid": "14387800-130C-49E7-B877-2881C89CB258" , "source": "nordic" },
     { "name": "Nordic Throughput Service", "identifier": "com.nordicsemi.service.throughput", "uuid": "0483DADD-6C9D-6CA9-5D41-03AD4FFF4ABB", "source": "nordic" },
+    { "name": "Nordic Direction and Distance Finding Service", "identifier": "com.nordicsemi.service.ddfs", "uuid": "21490000-494A-4573-98AF-F126AF76F490", "source": "nordic" },
 
     { "name": "Eddystone", "identifier": "com.google.service.eddystone", "uuid": "FEAA" , "source": "google"},
     { "name": "Eddystone Configuration Service", "identifier": "com.google.service.eddystone.configuration", "uuid": "A3C87500-8ED3-4BDF-8A39-A01BEBEDE295" , "source": "google"},
