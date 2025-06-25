@@ -539,6 +539,12 @@
     { "name": "Wi-Fi Provisioning Data Out", "identifier": "com.nordicsemi.characteristic.wifi.provisioning.data_out", "uuid": "14387803-130C-49E7-B877-2881C89CB258", "source": "nordic"},
 
     { "name": "Throughput Characteristic", "identifier": "com.nordicsemi.characteristic.throughput", "uuid": "1524", "source": "nordic" },
+    
+    { "name": "Distance Measurement Characteristic", "identifier": "com.nordicsemi.characteristic.dm", "uuid": "21490001-494A-4573-98AF-F126AF76F490", "source": "nordic" },
+    { "name": "Azimuth Measurement Characteristic", "identifier": "com.nordicsemi.characteristic.am", "uuid": "21490002-494A-4573-98AF-F126AF76F490", "source": "nordic" },
+    { "name": "Elevation Measurement Characteristic", "identifier": "com.nordicsemi.characteristic.em", "uuid": "21490003-494A-4573-98AF-F126AF76F490", "source": "nordic" },
+    { "name": "DDF Feature", "identifier": "com.nordicsemi.characteristic.ddf", "uuid": "21490004-494A-4573-98AF-F126AF76F490", "source": "nordic" },
+    { "name": "Control Point", "identifier": "com.nordicsemi.characteristic.control_point", "uuid": "21490005-494A-4573-98AF-F126AF76F490", "source": "nordic" },
 
     { "name": "UART RX Characteristic", "identifier": "com.nordicsemi.characteristic.uart_rx", "uuid": "6E400002-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
     { "name": "UART TX Characteristic", "identifier": "com.nordicsemi.characteristic.uart_tx", "uuid": "6E400003-B5A3-F393-E0A9-E50E24DCCA9E" , "source": "nordic"},
