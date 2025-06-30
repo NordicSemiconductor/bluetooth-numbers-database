@@ -3867,5 +3867,13 @@
     { "code": 3865, "name": "Shenzhen SuperSound Technology Co.,Ltd" },
     { "code": 3866, "name": "FLO SCIENCES, LLC" },
     { "code": 3867, "name": "PalatiumCare LLC" },
+    { "code": 3868, "name": "Edge Semiconductors Inc." },
+    { "code": 3869, "name": "ZIMMERMANN PV-Steel Group GmbH & Co. KG" },
+    { "code": 3870, "name": "Yolni Inc." },
+    { "code": 3871, "name": "Ninebot (Changzhou) Tech Co., Ltd." },
+    { "code": 3872, "name": "Beijing Spring Creation Technology Co., Ltd." },
+    { "code": 3873, "name": "Rokk Limited" },
+    { "code": 3874, "name": "ONESPACE TECHNOLOGIES (PTY) LTD" },
+    { "code": 3875, "name": "Yuquan Semiconductor (Xiamen) Co., Ltd." },
     { "code": 65535, "name": "Bluetooth SIG Specification Reserved Default Vendor ID for Remote Devices Without Device ID Service Record." }
 ]
