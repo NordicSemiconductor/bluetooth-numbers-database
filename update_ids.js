@@ -25,9 +25,6 @@ function convertCompanyIdentifiers(inputFile) {
     const data = yaml.parse(yamlContent);
 
     data.company_identifiers.push(
-        { value: 0x0418, name: "Reserved" },
-        { value: 0x0943, name: "Reserved" },
-        { value: 0x0CBE, name: "Reserved" },
         { value: 0xFFFF, name: "Bluetooth SIG Specification Reserved Default Vendor ID for Remote Devices Without Device ID Service Record." }
     );
 
