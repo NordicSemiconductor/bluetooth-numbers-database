@@ -49,6 +49,7 @@
     { "name": "Device Time", "identifier": "org.bluetooth.service.device_time", "uuid": "1847", "source": "gss" },
     { "name": "Media Control", "identifier": "org.bluetooth.service.control.media", "uuid": "1848", "source": "gss" },
     { "name": "Generic Media Control", "identifier": "org.bluetooth.service.control.generic_media", "uuid": "1849", "source": "gss" },
+    { "name": "Tire Pressure Monitoring System Service", "identifier": "org.bluetooth.service.tpms", "uuid": "1860", "source": "gss" },
     { "name": "Constant Tone Extension", "identifier": "org.bluetooth.service.constant_tone_extension", "uuid": "184A", "source": "gss" },
     { "name": "Telephone Bearer", "identifier": "org.bluetooth.service.bearer.telephone", "uuid": "184B", "source": "gss" },
     { "name": "Generic Telephone Bearer", "identifier": "org.bluetooth.service.bearer.generic_telephone", "uuid": "184C", "source": "gss" },
